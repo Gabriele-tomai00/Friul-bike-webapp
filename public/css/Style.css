@@ -13,7 +13,7 @@
 body, select, input, textarea { 
 		background-color: #28314E; 
 		color: rgba(255, 255, 255, 0.65);
-		font-family: Helvetica_Now;
+	font-family: Helvetica_Now, serif;
 		font-size: 13pt; 
 		font-weight: 200;
 		line-height: 1.65; 
