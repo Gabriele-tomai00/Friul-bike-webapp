@@ -253,20 +253,20 @@ function show_charger() {
 
 
 let geomarker, circle;  //variabili per visualizzare la località del dispositivo
-let a = 0; //parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
+let sh = 0; //parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
 
 	function getLocation() {
 
-				if ( a === 0 ) {
+				if ( sh === 0 ) {
 				  	if (navigator.geolocation) { navigator.geolocation.getCurrentPosition(showPosition); }
 				  	else { alert("Geolocalizzazione non supportata da questo browser."); }
-				a = 1;
+					sh = 1;
 				}
 
-				else if (a === 1) {
+				else if (sh === 1) {
 					geomarker.setMap(null);
 					circle.setMap(null);
-				a = 0;
+					sh = 0;
 				}
 
 			geomarker.setMap(null);
