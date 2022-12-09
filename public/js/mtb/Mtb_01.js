@@ -481,32 +481,32 @@ window.onclick = function(event) {
 // IN BASE ALL'ID DEL MARCATORE, RESTITUISCO UNA STRINGA CON IL SUO RELATIVO NOME
 function selectmarker(id) {
 
-	var id = parseInt(id);  // converto in int le stringhe
-
-	switch(id) {
+	let id_m = parseInt(id);  // converto in int le stringhe
+	let marcatore;
+	switch(id_m) {
 
 	   case 0:
-	    var marcatore = "tutti i marcatori";
+	    marcatore = "tutti i marcatori";
 	    break;
 
 	  case 1:
-	    var marcatore = "tutto il percorso";
+	    marcatore = "tutto il percorso";
 	    break;
 
 	  case 2:
-	    var marcatore = "partenza";
+	    marcatore = "partenza";
 	    break;
 
 	  case 3:
-	    var marcatore = "arrivo";
+	    marcatore = "arrivo";
 	    break;
 
 	  case 4:
-	    var marcatore = "lago di Sauris (zona Maina)";
+	    marcatore = "lago di Sauris (zona Maina)";
 	    break;
 
 	  default:
-	    var marcatore = "altro";
+	    marcatore = "altro";
 	  }
 
   return marcatore;
