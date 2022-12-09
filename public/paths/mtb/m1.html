@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>M1</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="../../css/Style.css">
+		<link rel="shortcut icon" href="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+	<body>
+
+		<div class="topnav" id="myTopnav">
+ 			<a href="../../Home.html">Home</a>
+ 			<a href="../../Calendar.html">Calendario Eventi</a>
+ 			<a href="../../Paths.html">Piste Ciclabili</a>
+  			<a href="../../Charger.html">Colonnine di Ricarica</a>
+  			<a href="../../Shop.html">Officine</a>
+  			<a href="../../About.html">Informazioni</a>
+  			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    			<i class="fa fa-bars"></i>
+  			</a>
+		</div><br>
+
+		<h1 class="heading">CASERARAZZO - VILLASANTINA</h1>
+		<div class="maps" id="mtb_01"></div><br>
+		<button class="function" id="myBtn"    onclick="openwindow(1)">Commenta</button>
+		<button class="function" type="submit" onclick="getLocation()">Geolocalizzazione</button>
+		<button class="function" type="submit" onclick="show_shop()">Visualizza Officine</button>
+		<button class="function" type="submit" onclick="show_charger()">Visualizza Stazioni di Ricarica</button>
+		<button class="function" type="submit" onclick="window.open('../../other/kml_path/kml_mtb/01.kml')">Scarica Mappa</button>
+		<br>
+			
+		<p style="text-align: justify">
+			Ebbene sì, questa volta la salita si fa in macchina…
+			Normalmente, durante l'inverno la strada asfaltata vicino alla Casera Razzo viene battuta diventando una pista sulla neve, utilizzata da persone a piedi, con gli sci, motoslitte, ciaspe. Qualcuno ci prova con la jeep e qualcun altro con la mountain bike. Il percorso (tracciato per navigatore) sulla Sella di Razzo non è stato segnato: cambia a seconda di come è stato battuto, oltre al fatto che può essere fatto a preferenze personali. La parte del percorso in prossimità della Sella di Razzo è, approssimativamente, in piano. Si presentano piccole salite e discese che compongono, in totale, un anello a Sud (verso il paese di Sauris), limitato a Nord dall'asfalto, pulito dalla neve, della strada fra la Val Pesarina ed il Cadore. Inizia quindi la discesa verso Sauris di Sopra dove la pendenza è elevata, soprattutto in relativo, immaginando di correre sulla neve e le capacità di frenata associata.<br> 
+			<img src="../../static/images/mtb/m1/LagoDiSauris.jpg" class="responsive_images"><br>
+			La strada è caratterizzata da lunghi rettilinei seguiti da tornanti. In aggiunta nulla escude la presenza di lastre di ghiaccio, ad esempio formate dallo scoglimento della neve durante il giorno ed il suo congelamento nella notte. E' possibile scegliere se effettuare il passaggio da Sauris di Sopra a Sauris di Sotto su asfalto o su sentiero, il primo caso è quello riportano nel percorso, il secondo richiede il passaggio precedente di qualcuno sul sentiero, in modo che questo sia battuto, altrimenti sarebbe impossibile da percorrere. Sauris di Sotto è sede di inizio di un altro percorso, un misto con indimenticabili salite: Sauris di Sotto - Sella Festons - Forcella Pièltinis, oltre all'inizio della serie di tornanti che porta al Lago di Sauris, al di sotto della frazione di Lateis, luogo di un altro percorso invernale, un "due giorni" in questo caso, Lateis - Monte Forchia. L’itinerario per navigatore mostra la strada che dalla Sella di Razzo porta fino al paese di Villa Santina, 1400 m di discesa. La strada è completamente asfaltata, d’inverno però il tratto da Sauris di Sopra alla Sella di Razzo non viene pulito dalla neve, per cui è molto interessante farlo in bici. Lunghezza 39 km, dislivello 1450 m ma di sola discesa.<br>
+			<img src="../../static/images/mtb/m1/Casera_Razzo.jpg" class="responsive_images"><br>
+		</p>			
+			
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal"> 
+
+			  <!-- Modal content -->
+			  <div class="modal-content">
+			    <div class="modal-header">
+			      <span class="close">&times;</span>
+			      <p style="margin: 2px"><strong>Lascia un commento</strong></p>
+			    </div>
+			    <div class="modal-body">
+			    	<div id ="marcatore"></div>
+			    	<div id = "id-marcatore" style="display:none"></div>
+			      	<p>Inserisci il tuo nome: <input type="text" id="name"><br></p>
+				    <p>Inserisci il tuo commento: <input type="text" id="textcomment"><br></p> 
+				    <div id="id-button"></div>   <!-- viene aggiunto: onload="comment(id)"--><!-- (con id preciso) -->
+			    </div>
+			    <div class="modal-footer">
+			      <p style="margin: 0"><strong>Ti ringraziamo!</strong></p>
+			    </div>
+			  </div>
+		</div>
+
+
+
+
+		<div style="font-style: italic">Seleziona i commenti da visualizzare:</div>
+
+		<select id="mySelect">
+		  <option value="0">Tutti</option>
+		  <option value="1">Tutto il Percorso</option>
+		  <option value="2">Partenza</option>
+		  <option value="3">Arrivo</option>
+		  <option value="4">Lago di Sauris</option>
+		</select>
+	<button class="function" onclick="updateComments()">Visualizza</button> <div id="comments1"></div>
+
+		<br><br>
+			
+			<div id="comments"></div>
+
+			<div id="number_comments"></div>
+
+			<!-- <botton>Visualizza altri commenti (nello script)</botton> -->
+				
+
+		<footer id="footer" >
+			<button class="f-button" onclick="window.open('https://twitter.com/intent/tweet?text=TITOLO&url=URL','_blank')">Tweet</button>
+			<button class="f-button" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=URL','_blank')">Facebook</button>
+			<button class="f-button" onclick="window.open('/Sent.html','_blank')">Contattaci</button>
+		</footer>
+
+
+	</body>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACILq6Sic3hXbZ9vcxJJp1unyKr1L84Jo&callback=myMap"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+	<script src="../../static/js/mtb/Mtb_01.js"></script>
+	
+</html>
