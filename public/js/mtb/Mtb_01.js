@@ -229,7 +229,7 @@ const contentString_camera =
 let b=1;  //parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
 function show_shop() {
 
-	if (b == 1) {
+	if (b === 1) {
       		setMapOnAllshop(map);
 			b = 0;
 		}
@@ -242,7 +242,7 @@ function show_shop() {
 let d=1;	//parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
 function show_charger() {
 
-	if (d == 1) { setMapOnAllcharger(map);
+	if (d === 1) { setMapOnAllcharger(map);
 			d = 0;
 		}
 
@@ -257,13 +257,13 @@ let a = 0; //parametro per alternare la funzionalità del bottone che attiva la 
 
 	function getLocation() {
 
-				if ( a == 0 ) {
+				if ( a === 0 ) {
 				  	if (navigator.geolocation) { navigator.geolocation.getCurrentPosition(showPosition); }
 				  	else { alert("Geolocalizzazione non supportata da questo browser."); }
 				a = 1;
 				}
 
-				else if (a == 1) {
+				else if (a === 1) {
 					geomarker.setMap(null);
 					circle.setMap(null);
 				a = 0;
@@ -313,7 +313,7 @@ function comment(id){
 	let d = date.getDate();
 	let datedmy = d + "/" + m + "/" + y;   // esempio 20/6/2010
 
-	if (text == "" || name =="") {
+	if (text === "" || name ==="") {
 		alert("hai lasciato vuoto uno o più campi!");
 	}
 
