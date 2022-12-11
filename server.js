@@ -1,8 +1,13 @@
 // moduli richiesti
 const express = require('express')
+const path = require('path');
+let bodyParser = require('body-parser');
+
 const DataBaseHandler = require('./DataBaseHandler');
 
 const app = express()
+app.use(bodyParser.json()); // support json encoded bodies
+app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
 //per hostare tutto quello che è nella cartella public
 app.use(express.static('public'));
