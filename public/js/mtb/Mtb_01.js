@@ -1,7 +1,3 @@
-let shop, charger;
-let shops = [];
-let chargers = [];
-
 // variabili della mappa (si può ingrandire e viene aperta con un centro preciso)
 let mapOptions1 = {
     scrollwheel: true,
@@ -83,116 +79,133 @@ const contentString_camera =
     	infowindow_camera.open(map, camera);
   	});
 
-
   			// LISTA OFFICINE //
-
+			let shops = [];
   				shop = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(46.120876, 13.224290),
-			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg'
+			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
+					optimized: true
 				});
 			    shops.push(shop);
 
 			  	shop = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(46.065163, 13.239396),
-			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg'
+			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
+                    optimized: true
 			  	});
 			    shops.push(shop);
 
 			  	shop = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(46.100883, 13.419984),
-			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg'
+			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
+                    optimized: true
 			  	});
 			    shops.push(shop);
 
 			    shop = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(45.972660, 12.975724),
-			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg'
+			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
+                    optimized: true
 			  	});
 			    shops.push(shop);
 
 			    shop = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(46.026559, 12.875474),
-			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg'
+			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
+                    optimized: true
 			  	});
 			    shops.push(shop);
 
 			    shop = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(45.996039, 12.708619),
-			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg'
+			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
+                    optimized: true
 			  	});
 			    shops.push(shop);
 
 			    shop = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(45.942628, 13.572000),
-			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg'
+			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
+                    optimized: true
 			  	});
 			    shops.push(shop);
 
 			    shop = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(46.411179, 13.024993),
-			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg'
+			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
+                    optimized: true
 			  	});
 			    shops.push(shop);
 
 			    shop = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(46.523026, 13.532599),
-			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg'
+			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
+                    optimized: true
 			  	});
 			    shops.push(shop);
 
 			    shop = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(46.433185, 12.347449),
-			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg'
+			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
+                    optimized: true
 			  	});
 			    shops.push(shop);
 
 			    shop = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(45.807236, 13.522339),
-			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg'
+			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
+                    optimized: true
 			  	});
 			    shops.push(shop);
 
 			    shop = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(45.631533, 13.811415),
-			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg'
+			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
+                    optimized: true
 			  	});
 			    shops.push(shop);
 
 			    shop = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(45.649024, 13.766558),
-			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg'
+			    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
+                    optimized: true
 			  	});
 			    shops.push(shop);
 
 			// LISTA COLONNINE DI RICARICA //
-
+			let chargers = [];
 				charger = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(46.520509, 13.584922),
-				icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg'
+				icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg',
+                    optimized: true
 				});
 			    chargers.push(charger);
 
 			    charger = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(46.186966, 12.704981),
-				icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg'
+				icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg',
+                    optimized: true
 			  	});
 			    chargers.push(charger);
 
 			    charger = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(46.175804, 13.212284),
-				icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg'
+				icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg',
+                    optimized: true
 			  	});
 			    chargers.push(charger);
 
 			    charger = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(46.028968, 12.653150),
-				icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg'
+				icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg',
+                    optimized: true
 			  	});
 			    chargers.push(charger);
 
 			    charger = new google.maps.Marker({
 			    map: map, position: new google.maps.LatLng(45.710037, 13.132824),
-				icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg'
+				icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg',
+                    optimized: true
 			  	});
 			    chargers.push(charger);
 
@@ -214,47 +227,51 @@ const contentString_camera =
 
 
 
-let b=1;  //parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
+let show_sh = true;  //parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
 function show_shop() {
 
-	if (b === 1) {
+	if (show_sh === true) {
       		setMapOnAllshop(map);
-			b = 0;
+			show_sh = false;
 		}
 		else {
   			setMapOnAllshop(null);
-			b = 1;
+			show_sh = true;
 		}
 }
 
-let d=1;	//parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
+let show_ch = true;	//parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
 function show_charger() {
 
-	if (d === 1) { setMapOnAllcharger(map);
-			d = 0;
-		}
+	if (show_ch === true)
+	{
+		setMapOnAllcharger(map);
+		show_ch = false;
+	}
 
-		else { setMapOnAllcharger(null);
-			d = 1;
-		}
+	else
+	{
+		setMapOnAllcharger(null);
+		show_ch = true;
+	}
 }
 
 
 let geomarker, circle;  //variabili per visualizzare la località del dispositivo
-let sh = 0; //parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
+let show_gl = false; //parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
 
 	function getLocation() {
 
-				if ( sh === 0 ) {
+				if ( show_gl === false ) {
 				  	if (navigator.geolocation) { navigator.geolocation.getCurrentPosition(showPosition); }
 				  	else { alert("Geolocalizzazione non supportata da questo browser."); }
-					sh = 1;
+					show_gl = true;
 				}
 
-				else if (sh === 1) {
+				else if (show_gl === 1) {
 					geomarker.setMap(null);
 					circle.setMap(null);
-					sh = 0;
+					show_gl = false;
 				}
 
 			geomarker.setMap(null);
@@ -289,31 +306,30 @@ function updateComments() {
 }
 
 
-function comment(id){
+function comment(c_id){
 
-	let name = $("#name").val();
-	let text = $("#textcomment").val();
+	let c_name = $("#name").val();
+	let c_text = $("#textcomment").val();
 
 	// calcolo la data e la salvo in un formato comodo all'utente
-	let date = new Date();
-	let y = date.getFullYear();
-	let m = date.getMonth() + 1;
-	let d = date.getDate();
+	let c_date = new Date();
+	let y = c_date.getFullYear();
+	let m = c_date.getMonth() + 1;
+	let d = c_date.getDate();
 	let datedmy = d + "/" + m + "/" + y;   // esempio 20/6/2010
 
-	if (text === "" || name ==="") {
+	if (c_text === "" || c_name ==="") {
 		alert("hai lasciato vuoto uno o più campi!");
 	}
 
 	else {
 		let obj = {
-			name: name,
-			text: text,
-			id: id,
+			name: c_name,
+			text: c_text,
+			id: c_id,
 			date: datedmy
 		};
-
-		$('#name').val('');					//pulisco gli inputype
+		$('#c_name').val('');					//pulisco gli inputype
 		$('#textcomment').val('');
 
 		modal.style.display = "none";		//nascondo l'infowindow
@@ -443,9 +459,8 @@ let span = document.getElementsByClassName("close")[0];
 
 // funzione per aprire la finestra
 function openwindow(id) {
-
 	/* AGGIUNGO IL MARCATORE PRECISO ALLA FINESTRA DEL COMMENTO */
-	marcatore = selectmarker(id);
+	let marcatore = selectmarker(id);
    $("#marcatore").html("<p>Marcatore percorso: " + marcatore + "</p>");
    $("#id_marcatore").html(id);
    $("#id-button").html("<p><button class='function' type='submit' onclick='comment(" + id + ")'>Invia Commento!</button></p>");
