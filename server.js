@@ -3,7 +3,6 @@ const express = require('express')
 const DataBaseHandler = require('./DataBaseHandler');
 
 const app = express()
-app.use(express.static('/public'))
 
 //per hostare tutto quello che è nella cartella public
 app.use(express.static('public'));
