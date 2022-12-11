@@ -1,15 +1,3 @@
-/*FUNZIONE PER RENDERE RESPONSIVE LA BARRA SUPERIORE
-
-function myFunction() {
-  let x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-*/
-
 let shop, charger;
 let shops = [];
 let chargers = [];
@@ -353,7 +341,7 @@ let y = -3;
 function getComments(id_marker){
 
 	let contatore = 0; 						 //contatore dei commenti
-
+	let i = 0;
 	$.get("/api/comments/list/mtb/m1")
 	.done(function(data) { 					 //tento di caricare i commenti
 
@@ -363,17 +351,17 @@ function getComments(id_marker){
 		});
 
 		let b = a; 				//verifico il marcatore e aggiungo solo i commenti di quell'id
-		if (b != id_marker) {
+		if (b !== id_marker) {
 			y=0;
 			a = id_marker;
 		}
 
 		y=y+6; 		//agginugo commenti alla lista (vengono aggiunti, 6 ad ogni ciclo
 
-			if (id_marker == 0) {  //se uguale a zero, visualizzo tutti i commenti
+			if (id_marker === 0) {  //se uguale a zero, visualizzo tutti i commenti
 
 								/*	for (let i = data.length; i > 0; i--) {   */
-									for (let i=0; i < y && i<data.length; i++) {
+									for (i=0; i < y && i<data.length; i++) {
 										let comment = data[i];
 										contatore = contatore+1;
 										$(`#comments`).prepend(`  
@@ -396,10 +384,10 @@ function getComments(id_marker){
 
 			else {  //se diverso da zero, voglio visualizzare solo certi commenti
 
-								for (let i=0; i < y && i<data.length; i++) {
+								for (i=0; i < y && i<data.length; i++) {
 									let comment = data[i];
 
-									if (id_marker == comment.id) { //visualizzo solo i commenti con quell'id
+									if (id_marker === comment.id) { //visualizzo solo i commenti con quell'id
 										console.log("dentro l'if");
 										$(`#comments`).prepend(`  						 		
 										<div class="modal-content">
@@ -472,7 +460,7 @@ span.onclick = function() {
 
 // nascondo la finestra quando clicco un punto qualsiasi fuori da essa
 window.onclick = function(event) {
-  if (event.target == modal) {
+  if (event.target === modal) {
     modal.style.display = "none";
   }
 }
