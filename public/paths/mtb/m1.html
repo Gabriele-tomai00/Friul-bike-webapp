@@ -35,7 +35,7 @@
 </button>
 <br>
 
-<p style="text-align: justify">
+<p class="paths_descriptsion">
     Ebbene sì, questa volta la salita si fa in macchina…
     Normalmente, durante l'inverno la strada asfaltata vicino alla Casera Razzo viene battuta diventando una pista sulla
     neve, utilizzata da persone a piedi, con gli sci, motoslitte, ciaspe. Qualcuno ci prova con la jeep e qualcun altro
@@ -68,25 +68,25 @@
     <div class="modal-content">
         <div class="modal-header">
             <span class="close">&times;</span>
-            <p style="margin: 2px"><strong>Lascia un commento</strong></p>
+            <p id="leave_comment"><strong>Lascia un commento</strong></p>
         </div>
         <div class="modal-body">
             <div id="marcatore"></div>
-            <div id="id-marcatore" style="display:none"></div>
-            <p>Inserisci il tuo nome: <input type="text" id="name"><br></p>
-            <p>Inserisci il tuo commento: <input type="text" id="textcomment"><br></p>
+            <div id="id_marcatore"></div>
+            <p>Inserisci il tuo nome: <label for="name"></label><input type="text" id="name"><br></p>
+            <p>Inserisci il tuo commento: <label for="textcomment"></label><input type="text" id="textcomment"><br></p>
             <div id="id-button"></div>   <!-- viene aggiunto: onload="comment(id)"--><!-- (con id preciso) -->
         </div>
         <div class="modal-footer">
-            <p style="margin: 0"><strong>Ti ringraziamo!</strong></p>
+            <p id="thanks"><strong>Ti ringraziamo!</strong></p>
         </div>
     </div>
 </div>
 
 
-<div style="font-style: italic">Seleziona i commenti da visualizzare:</div>
+<div>Seleziona i commenti da visualizzare:</div>
 
-<select id="mySelect">
+<label for="mySelect"></label><select id="mySelect">
     <option value="0">Tutti</option>
     <option value="1">Tutto il Percorso</option>
     <option value="2">Partenza</option>

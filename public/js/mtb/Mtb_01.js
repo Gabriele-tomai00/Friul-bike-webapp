@@ -459,7 +459,7 @@ function openwindow(id) {
 	/* AGGIUNGO IL MARCATORE PRECISO ALLA FINESTRA DEL COMMENTO */
 	marcatore = selectmarker(id);
    $("#marcatore").html("<p>Marcatore percorso: " + marcatore + "</p>");
-   $("#id-marcatore").html(id);
+   $("#id_marcatore").html(id);
    $("#id-button").html("<p><button class='function' type='submit' onclick='comment(" + id + ")'>Invia Commento!</button></p>");
 
    modal.style.display = "block";
