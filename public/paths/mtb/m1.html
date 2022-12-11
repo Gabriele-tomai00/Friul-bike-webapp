@@ -95,16 +95,14 @@
     <option value="3">Arrivo</option>
     <option value="4">Lago di Sauris</option>
 </select>
-<button class="function" onclick="updateComments()">Visualizza</button>
-<div id="comments1"></div>
-
+<button class="function" onclick="getComments(document.getElementById('mySelect').value)">Visualizza</button>
 <br><br>
 
 <div id="comments"></div>
 
 <div id="number_comments"></div>
 
-<!-- <botton>Visualizza altri commenti (nello script)</botton> -->
+<!-- <botton>Visualizza altri commenti (nello script) </botton> -->
 <footer id="footer">
     <button class="f-button" onclick="window.open('https://twitter.com/intent/tweet?text=TITOLO&url=URL','_blank')">
         Tweet

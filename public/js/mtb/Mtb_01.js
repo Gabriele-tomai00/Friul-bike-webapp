@@ -300,13 +300,13 @@ let show_gl = false; //parametro per alternare la funzionalità del bottone che 
 
 	/* COMMENTI */
 
-function updateComments() {
-	let id_marker = document.getElementById("mySelect").value;  //l'id_marker vale 1 o 2 o 3...
+function updateComments(id_marker) {
+	//let id_marker = document.getElementById("mySelect").value;  //l'id_marker vale 1 o 2 o 3...
 	getComments(id_marker);
 }
 
 
-function comment(c_id){
+function generateComment(c_id){
 
 	let c_name = $("#name").val();
 	let c_text = $("#textcomment").val();
@@ -352,14 +352,13 @@ function comment(c_id){
 
 //parametri per la funzione getComments (per visualizzare solo i commenti di un marcatore)
 let a = 0;
-let y = -3;
+let number_c = -1;
+function getComments(id_marker) {
 
-function getComments(id_marker){
-
-	let contatore = 0; 						 //contatore dei commenti
-	let i = 0;
-	$.get("/api/comments/list/mtb/m1")
-	.done(function(data) { 					 //tento di caricare i commenti
+	let cont = 0; 						 //contatore dei commenti
+	number_c+=1;
+	console.log ("number_c", number_c);
+	$.get("/api/comments/list/mtb/m1").done(function(data) {	 //tento di caricare i commenti
 
 		data = JSON.parse(data);
 		$("#comments").each(function() {
@@ -368,18 +367,13 @@ function getComments(id_marker){
 
 		let b = a; 				//verifico il marcatore e aggiungo solo i commenti di quell'id
 		if (b !== id_marker) {
-			y=0;
 			a = id_marker;
 		}
 
-		y=y+6; 		//agginugo commenti alla lista (vengono aggiunti, 6 ad ogni ciclo
-
-			if (id_marker === 0) {  //se uguale a zero, visualizzo tutti i commenti
-
+			if (b === 0) {  //se uguale a zero, visualizzo tutti i commenti
 								/*	for (let i = data.length; i > 0; i--) {   */
-									for (i=0; i < y && i<data.length; i++) {
+									for (let i=0; i<data.length && cont<(6*number_c); i++) {
 										let comment = data[i];
-										contatore = contatore+1;
 										$(`#comments`).prepend(`  
 										<div class="modal-content">
 										    <div class="modal-header">
@@ -393,18 +387,17 @@ function getComments(id_marker){
 										    <div class="modal-footer"></div>
 										</div><br>
 										`);
-
+									cont+=1; console.log(selectmarker(id_marker), " ");
 									}
 
 			}
 
 			else {  //se diverso da zero, voglio visualizzare solo certi commenti
 
-								for (i=0; i < y && i<data.length; i++) {
+								for (let i=0; i<data.length && cont<(6*number_c); i++) {
 									let comment = data[i];
 
-									if (id_marker === comment.id) { //visualizzo solo i commenti con quell'id
-										console.log("dentro l'if");
+									if (b === comment.id) { //visualizzo solo i commenti con quell'id
 										$(`#comments`).prepend(`  						 		
 										<div class="modal-content">
 										    <div class="modal-header">
@@ -418,21 +411,22 @@ function getComments(id_marker){
 										    <div class="modal-footer"></div>
 										</div><br>
 										`);
-									contatore= contatore+1;
+										cont+=1; console.log(selectmarker(id_marker), " count: ", cont);
 									}
-
-									else { y = y+1; }  //se non trovo un commento modifico y così che il ciclo
-													//non si fermi troppo presto (deve stampare almento tot commenti)
 								}
 			}
 
 
 		// se ci sono altri commenti visualizzo il tasto "VISUALIZZA ALTRI COMMENTI"
-		if (data.length > i) {
-			$("#number_comments").html("Commenti visualizzati: " + contatore +
-			"<button class='function' style='float: right;'	type='submit' onclick='updateComments()'>Visualizza Altri Commenti</button>");
-		}
-
+		//if (data.length > i) {
+			let funz = "getComments(document.getElementById('mySelect').value)";
+			let new_button = "Commenti visualizzati: " + cont +
+				"<button class='function' style='float: right;'	type='submit' onclick="
+				+ funz +
+				">Visualizza Altri Commenti</button>";
+			$("#number_comments").html(new_button);
+		//}
+	cont=0;
 	})
 
 	.fail(function(data) {
@@ -463,7 +457,7 @@ function openwindow(id) {
 	let marcatore = selectmarker(id);
    $("#marcatore").html("<p>Marcatore percorso: " + marcatore + "</p>");
    $("#id_marcatore").html(id);
-   $("#id-button").html("<p><button class='function' type='submit' onclick='comment(" + id + ")'>Invia Commento!</button></p>");
+   $("#id-button").html("<p><button class='function' type='submit' onclick='generateComment(" + id + ")'>Invia Commento!</button></p>");
 
    modal.style.display = "block";
 }
