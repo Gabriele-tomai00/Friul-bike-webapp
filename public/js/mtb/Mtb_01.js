@@ -296,8 +296,13 @@ let show_gl = false; //parametro per alternare la funzionalità del bottone che 
 
 	/* COMMENTI */
 
-function updateComments(id_marker) {
-	//let id_marker = document.getElementById("mySelect").value;  //l'id_marker vale 1 o 2 o 3...
+//prima chiamata all'apertura della pagina, per caricare i commenti
+window.onload = function() {
+	getComments(0);
+};
+
+function updateComments() {
+	let id_marker = document.getElementById("mySelect").value;  //l'id_marker vale 1 o 2 o 3...
 	getComments(id_marker);
 }
 
@@ -347,8 +352,7 @@ function generateComment(c_id){
 }
 
 //parametri per la funzione getComments (per visualizzare solo i commenti di un marcatore)
-let a = 0;
-let number_c = -1;
+let number_c = 0;
 function getComments(id_marker) {
 
 	let cont = 0; 						 //contatore dei commenti
@@ -430,11 +434,6 @@ function getComments(id_marker) {
 	})
 
 }
-
-//prima chiamata all'apertura della pagina, per caricare i commenti
-document.addEventListener('readystatechange', (event) => {
-	getComments(0);  //id di default a zero, perchè carica TUTTI i commenti, senza preferenze
-})
 
 
 	/* FUNZIONI PER LA FINESTRA DI AGGIUNTA COMMENTI */
