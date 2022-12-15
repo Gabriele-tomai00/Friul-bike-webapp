@@ -365,10 +365,8 @@ function getComments(id_marker) {
 		$("#comments").each(function() {
 			$(this).empty();
 		});
-		console.log("id_marker: ", id_marker);
 			if (id_marker === "0") {  //se uguale a zero, visualizzo tutti i commenti
 								/*	for (let i = data.length; i > 0; i--) {   */
-									console.log("dentro l'if per visualizzare tutti i commenti");
 									for (let i=0; i<data.length && comment_count<(6*number_c); i++) {
 										let comment = data[i];
 										$(`#comments`).prepend(`  
@@ -413,8 +411,6 @@ function getComments(id_marker) {
 
 		// se ci sono altri commenti visualizzo il tasto "VISUALIZZA ALTRI COMMENTI"
 		$("#number_comments").html("Commenti visualizzati: " + comment_count);
-		console.log ("comment_count: ", comment_count);
-		console.log ("data.length", data.length);
 		// se ci sono ancora commenti da visualizzare, inserisco il bottone per visualizzarli
 		if (data.length > comment_count)
 			$("#update_comments").html("<button class='function' style='float: right;' type='submit' onclick='updateComments()'>Visualizza Altri Commenti</button>");
