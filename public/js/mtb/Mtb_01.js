@@ -339,9 +339,8 @@ function generateComment(c_id){
 
 		$.post("/api/comments/add/mtb/m1", objComment)  //invio il commento e poi visualizzo
 		.done(function() {
-			getComments(0);
-			updateComments(); //per ripristinare la visualizzazione dei soli commenti d'interesse
-
+			getComments("0");
+			updateComments(); 			//per ripristinare la visualizzazione dei soli commenti d'interesse
 		})
 		.fail(function(data) {
 			alert(`Non è stato possibile aggiungere il commento: ${data}`);
