@@ -230,7 +230,7 @@ const contentString_camera =
 let show_sh = true;  //parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
 function show_shop() {
 
-	if (show_sh === true) {
+	if (show_sh) {
       		setMapOnAllshop(map);
 			show_sh = false;
 		}
@@ -243,14 +243,12 @@ function show_shop() {
 let show_ch = true;	//parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
 function show_charger() {
 
-	if (show_ch === true)
+	if (show_ch)
 	{
 		setMapOnAllcharger(map);
 		show_ch = false;
 	}
-
-	else
-	{
+	else {
 		setMapOnAllcharger(null);
 		show_ch = true;
 	}
@@ -261,17 +259,15 @@ let geomarker, circle;  //variabili per visualizzare la località del dispositiv
 let show_gl = false; //parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
 
 	function getLocation() {
-
-				if ( show_gl === false ) {
-				  	if (navigator.geolocation) { navigator.geolocation.getCurrentPosition(showPosition); }
-				  	else { alert("Geolocalizzazione non supportata da questo browser."); }
-					show_gl = true;
-				}
-
-				else if (show_gl === 1) {
+				if (show_gl) {
 					geomarker.setMap(null);
 					circle.setMap(null);
 					show_gl = false;
+				}
+				else {
+				  	if (navigator.geolocation) { navigator.geolocation.getCurrentPosition(showPosition); }
+				  	else { alert("Geolocalizzazione non supportata da questo browser."); }
+					show_gl = true;
 				}
 
 			geomarker.setMap(null);
