@@ -298,7 +298,7 @@ let show_gl = false; //parametro per alternare la funzionalità del bottone che 
 
 //prima chiamata all'apertura della pagina, per caricare i commenti
 window.onload = function() {
-	getComments(0);
+	getComments("0");
 };
 
 function updateComments() {
@@ -364,13 +364,8 @@ function getComments(id_marker) {
 		$("#comments").each(function() {
 			$(this).empty();
 		});
-
-		let b = a; 				//verifico il marcatore e aggiungo solo i commenti di quell'id
-		if (b !== id_marker) {
-			a = id_marker;
-		}
-
-			if (b === 0) {  //se uguale a zero, visualizzo tutti i commenti
+		console.log("id_marker: ", id_marker);
+			if (id_marker === "0") {  //se uguale a zero, visualizzo tutti i commenti
 								/*	for (let i = data.length; i > 0; i--) {   */
 									for (let i=0; i<data.length && cont<(6*number_c); i++) {
 										let comment = data[i];
