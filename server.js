@@ -25,4 +25,5 @@ app.get('/api/comments/list/mtb/m1', function (req, res) {
 
 // metto in ascolto il server all'indirizzo 127.0.0.1
 app.listen(1337, '127.0.0.1');
-console.log('Server running at http://127.0.0.1:1337/Home.html');
+//console.log('Server running at http://127.0.0.1:1337/Home.html');
+console.log('Server running at http://127.0.0.1:1337/paths/mtb/m1.html');
