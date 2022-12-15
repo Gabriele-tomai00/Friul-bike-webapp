@@ -324,7 +324,7 @@ function generateComment(c_id){
 	}
 
 	else {
-		let obj = {
+		let objComment = {
 			name: c_name,
 			text: c_text,
 			id: c_id,
@@ -337,7 +337,7 @@ function generateComment(c_id){
 
 
 
-		$.post("/api/comments/add/mtb/m1", obj)  //invio il commento e poi visualizzo
+		$.post("/api/comments/add/mtb/m1", objComment)  //invio il commento e poi visualizzo
 		.done(function() {
 			getComments(0);
 			updateComments(); //per ripristinare la visualizzazione dei soli commenti d'interesse
@@ -354,10 +354,8 @@ function generateComment(c_id){
 //parametri per la funzione getComments (per visualizzare solo i commenti di un marcatore)
 let number_c = 0;
 function getComments(id_marker) {
-
-	let cont = 0; 						 //contatore dei commenti
-	number_c+=1;
-	console.log ("number_c", number_c);
+	let comment_count = 0; 						 //contatore dei commenti
+	number_c += 1;
 	$.get("/api/comments/list/mtb/m1").done(function(data) {	 //tento di caricare i commenti
 
 		data = JSON.parse(data);
@@ -367,7 +365,8 @@ function getComments(id_marker) {
 		console.log("id_marker: ", id_marker);
 			if (id_marker === "0") {  //se uguale a zero, visualizzo tutti i commenti
 								/*	for (let i = data.length; i > 0; i--) {   */
-									for (let i=0; i<data.length && cont<(6*number_c); i++) {
+									console.log("dentro l'if per visualizzare tutti i commenti");
+									for (let i=0; i<data.length && comment_count<(6*number_c); i++) {
 										let comment = data[i];
 										$(`#comments`).prepend(`  
 										<div class="modal-content">
@@ -382,17 +381,15 @@ function getComments(id_marker) {
 										    <div class="modal-footer"></div>
 										</div><br>
 										`);
-									cont+=1; console.log(selectmarker(id_marker), " ");
+									comment_count+=1;
 									}
 
 			}
 
 			else {  //se diverso da zero, voglio visualizzare solo certi commenti
-
-								for (let i=0; i<data.length && cont<(6*number_c); i++) {
+								for (let i=0; i<data.length && comment_count<(6*number_c); i++) {
 									let comment = data[i];
-
-									if (b === comment.id) { //visualizzo solo i commenti con quell'id
+									if (id_marker === comment.id) { //visualizzo solo i commenti con quell'id
 										$(`#comments`).prepend(`  						 		
 										<div class="modal-content">
 										    <div class="modal-header">
@@ -406,7 +403,7 @@ function getComments(id_marker) {
 										    <div class="modal-footer"></div>
 										</div><br>
 										`);
-										cont+=1; console.log(selectmarker(id_marker), " count: ", cont);
+										comment_count+=1; //console.log(selectmarker(id_marker), " count: ", comment_count);
 									}
 								}
 			}
