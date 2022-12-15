@@ -338,7 +338,7 @@ function generateComment(c_id){
 
 
 		$.post("/api/comments/add/mtb/m1", obj)  //invio il commento e poi visualizzo
-		.done(function(data) {
+		.done(function() {
 			getComments(0);
 			updateComments(); //per ripristinare la visualizzazione dei soli commenti d'interesse
 
