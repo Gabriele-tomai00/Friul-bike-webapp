@@ -408,17 +408,18 @@ function getComments(id_marker) {
 								}
 			}
 
-
 		// se ci sono altri commenti visualizzo il tasto "VISUALIZZA ALTRI COMMENTI"
-		//if (data.length > i) {
-			let funz = "getComments(document.getElementById('mySelect').value)";
-			let new_button = "Commenti visualizzati: " + cont +
-				"<button class='function' style='float: right;'	type='submit' onclick="
-				+ funz +
-				">Visualizza Altri Commenti</button>";
-			$("#number_comments").html(new_button);
-		//}
-	cont=0;
+		$("#number_comments").html("Commenti visualizzati: " + comment_count);
+		console.log ("comment_count: ", comment_count);
+		console.log ("data.length", data.length);
+		// se ci sono ancora commenti da visualizzare, inserisco il bottone per visualizzarli
+		if (data.length > comment_count)
+			$("#update_comments").html("<button class='function' style='float: right;' type='submit' onclick='updateComments()'>Visualizza Altri Commenti</button>");
+		// se li carico tutti in pagina e non voglio più visualizzarli, lo nascondo
+		else
+			$("#update_comments").empty();
+
+		comment_count=0;
 	})
 
 	.fail(function(data) {
