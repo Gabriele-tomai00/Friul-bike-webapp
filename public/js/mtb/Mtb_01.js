@@ -370,7 +370,7 @@ function getComments(id_marker) {
 										$(`#comments`).prepend(`  
 										<div class="modal-content">
 										    <div class="modal-header">
-										      ${selectmarker(comment.id)}
+										      ${descrMarker(comment.id)}
 										    </div>
 										    <div class="modal-body">
 										    	${comment.name}<br>
@@ -392,7 +392,7 @@ function getComments(id_marker) {
 										$(`#comments`).prepend(`  						 		
 										<div class="modal-content">
 										    <div class="modal-header">
-										      ${selectmarker(comment.id)} 
+										      ${descrMarker(comment.id)} 
 										    </div>
 										    <div class="modal-body">
 										    	${comment.name}<br>
@@ -402,7 +402,7 @@ function getComments(id_marker) {
 										    <div class="modal-footer"></div>
 										</div><br>
 										`);
-										comment_count+=1; //console.log(selectmarker(id_marker), " count: ", comment_count);
+										comment_count+=1; //console.log(descrMarker(id_marker), " count: ", comment_count);
 									}
 								}
 			}
@@ -427,7 +427,6 @@ function getComments(id_marker) {
 
 }
 
-
 	/* FUNZIONI PER LA FINESTRA DI AGGIUNTA COMMENTI */
 
 let modal = document.getElementById("myModal");
@@ -441,7 +440,7 @@ let span = document.getElementsByClassName("close")[0];
 // funzione per aprire la finestra
 function openwindow(id) {
 	/* AGGIUNGO IL MARCATORE PRECISO ALLA FINESTRA DEL COMMENTO */
-	let marcatore = selectmarker(id);
+	let marcatore = descrMarker(id);
    $("#marcatore").html("<p>Marcatore percorso: " + marcatore + "</p>");
    $("#id_marcatore").html(id);
    $("#id-button").html("<p><button class='function' type='submit' onclick='generateComment(" + id + ")'>Invia Commento!</button></p>");
@@ -463,7 +462,7 @@ window.onclick = function(event) {
 
 
 // IN BASE ALL'ID DEL MARCATORE, RESTITUISCO UNA STRINGA CON IL SUO RELATIVO NOME
-function selectmarker(id) {
+function descrMarker(id) {
 
 	let id_m = parseInt(id);  // converto in int le stringhe
 	let marcatore;
