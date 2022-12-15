@@ -16,12 +16,12 @@ const MAPLayer = new google.maps.KmlLayer({
 
 // finestre per l'aggiunta di commenti in punti precisi della mappa (partenza, arrivo, lago)
 const contentString_partenza =
-	'<div class="infowindow">' + 'PARTENZA da ' + '<br>' +
-		'- Sauris di Sopra' + '<br>' +
-		'- altezza: '	+ '1813m' + '<br>' + '<br>' +
-	  	'<button id="myBtn" class="function" onclick="openwindow(2)">' + 'commenta' + '</button>' +
-  	'</div>';
-
+	'<div class="infowindow">' + 'ARRIVO a ' + '<br>' +
+	'<ul>' +
+	'<li>'+	'Sauris di Sopra' + '</li>' + '<br>' +
+	'<li>'+	'altezza: '	+ '1813m' + '</li>' + '</ul>' + '<br>' +
+	'<button id="myBtn" class="function" onclick="openwindow(2)">' + 'commenta' + '</button>' +
+	'</div>';
         const infowindow_partenza = new google.maps.InfoWindow ({
         content: contentString_partenza
     });
@@ -40,8 +40,8 @@ const contentString_partenza =
   	const contentString_arrivo =
   	'<div class="infowindow">' + 'ARRIVO a ' + '<br>' +
   	'<ul>' +
-	'<li>'+	'- Villa Santina' + '</li>' + '<br>' +
-	'<li>'+	'- altezza: '	+ '363m' + '</li>' + '</ul>' + '<br>' + '<br>' +
+	'<li>'+	'Villa Santina' + '</li>' + '<br>' +
+	'<li>'+	'Altezza: '	+ '363m' + '</li>' + '</ul>' + '<br>' +
 	'<button id="myBtn" class="function" onclick="openwindow(3)">' + 'commenta' + '</button>' +
   	'</div>';
       const infowindow_arrivo = new google.maps.InfoWindow({
@@ -61,7 +61,7 @@ const contentString_partenza =
 
 // chiamo camera il punto del lago che ha un icona a forma di telecamera
 const contentString_camera =
-	'<div class="infowindow">' + 'Luogo panoramico: Lago di Sauris' + '<br>' +
+	'<div class="infowindow">' + 'Luogo panoramico: Lago di Sauris' + '<br>' + '<br>' +
 	  	'<button id="myBtn" class="function" onclick="openwindow(4)">' + 'commenta' + '</button>' +
   	'</div>';
 
