@@ -314,7 +314,7 @@ function generateComment(c_id){
 	let d = c_date.getDate();
 	let datedmy = d + "/" + m + "/" + y;   // esempio 20/6/2010
 
-	if (c_text === "" || c_name ==="") {
+	if (c_text == "" || c_name == "") {
 		alert("hai lasciato vuoto uno o più campi!");
 	}
 
