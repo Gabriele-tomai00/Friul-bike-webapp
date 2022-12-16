@@ -1,6 +1,5 @@
 // moduli richiesti
 const express = require('express')
-const path = require('path');
 let bodyParser = require('body-parser');
 
 const DataBaseHandler = require('./DataBaseHandler');
