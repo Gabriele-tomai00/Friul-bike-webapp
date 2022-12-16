@@ -364,12 +364,13 @@ function getComments(id_marker) {
 		data = JSON.parse(data);
 		$("#comments").each(function() {
 			$(this).empty();
+			$(this).empty();
 		});
-			if (id_marker === "0") {  //se uguale a zero, visualizzo tutti i commenti
-								/*	for (let i = data.length; i > 0; i--) {   */
-									for (let i=0; i<data.length && comment_count<(6*number_c); i++) {
-										let comment = data[i];
-										$(`#comments`).prepend(`  
+
+		if (id_marker === "0") {  //se uguale a zero, visualizzo tutti i commenti
+				for (let i = data.length-1; i > -1 && comment_count<(6*number_c); i--) {
+					let comment = data[i];
+					$(`#comments`).append(`  
 										<div class="modal-content">
 										    <div class="modal-header">
 										      ${descrMarker(comment.id)}
@@ -382,16 +383,16 @@ function getComments(id_marker) {
 										    <div class="modal-footer"></div>
 										</div><br>
 										`);
-									comment_count+=1;
-									}
+					comment_count += 1;
+				}
 
 			}
-
-			else {  //se diverso da zero, voglio visualizzare solo certi commenti
-								for (let i=0; i<data.length && comment_count<(6*number_c); i++) {
-									let comment = data[i];
-									if (id_marker === comment.id) { //visualizzo solo i commenti con quell'id
-										$(`#comments`).prepend(`  						 		
+			else
+			{  //se diverso da zero, voglio visualizzare solo certi commenti
+				for (let i = data.length-1; i > -1 && comment_count<(6*number_c); i--) {
+					let comment = data[i];
+					if (id_marker === comment.id) { //visualizzo solo i commenti con quell'id
+						$(`#comments`).append(`  						 		
 										<div class="modal-content">
 										    <div class="modal-header">
 										      ${descrMarker(comment.id)} 
@@ -404,9 +405,9 @@ function getComments(id_marker) {
 										    <div class="modal-footer"></div>
 										</div><br>
 										`);
-										comment_count+=1; //console.log(descrMarker(id_marker), " count: ", comment_count);
-									}
-								}
+						comment_count += 1;
+					}
+				}
 			}
 
 		// se ci sono altri commenti visualizzo il tasto "VISUALIZZA ALTRI COMMENTI"
