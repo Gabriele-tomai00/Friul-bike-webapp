@@ -368,7 +368,7 @@ function getComments(id_marker) {
 		});
 
 		if (id_marker === "0") {  //se uguale a zero, visualizzo tutti i commenti
-				for (let i = data.length-1; i > -1 && comment_count<(6*number_c); i--) {
+				for (let i = data.length-1; i >= 0 && comment_count<(6*number_c); i--) {
 					let comment = data[i];
 					$(`#comments`).append(`  
 										<div class="modal-content">
@@ -389,7 +389,7 @@ function getComments(id_marker) {
 			}
 			else
 			{  //se diverso da zero, voglio visualizzare solo certi commenti
-				for (let i = data.length-1; i > -1 && comment_count<(6*number_c); i--) {
+				for (let i = data.length-1; i >=0 && comment_count<(6*number_c); i--) {
 					let comment = data[i];
 					if (id_marker === comment.id) { //visualizzo solo i commenti con quell'id
 						$(`#comments`).append(`  						 		
