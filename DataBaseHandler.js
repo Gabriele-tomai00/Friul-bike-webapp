@@ -13,10 +13,8 @@ module.exports = class DataBaseHandler {
             if(exists)
             {
                 callback();
-            }else
-            {
-                fs.writeFile(this.fileName, '[]', function (err, data) 
-                { 
+            } else {
+                fs.writeFile(this.fileName, '[]', function () {
                     callback();
                 })
             }
