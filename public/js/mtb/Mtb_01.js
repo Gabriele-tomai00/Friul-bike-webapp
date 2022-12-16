@@ -416,25 +416,20 @@ function getComments(id_marker) {
 
 		// se ci sono ancora commenti da visualizzare, inserisco il bottone per visualizzarli
 		// calcolo il numero di commenti per quell'id, per sapere se devo stampare il bottone "visualizza altri commenti"
-		if (id_marker == "0")
-		{
-			if (data.length > comment_count)
-				$("#update_comments").html("<button class='function' style='float: right;' type='submit' onclick='updateComments()'>Visualizza Altri Commenti</button>");
-			// se li carico tutti in pagina e non voglio più visualizzarli, lo nascondo
-			else
-				$("#update_comments").empty();
-		}
-		else {
-			let number_c_ofID = 0;
+		let number_c_ofID = data.length;
+		if (id_marker != "0")
+		{ //calcolo il numero dei commenti per quel marcatore
+			number_c_ofID = 0;
 			for (let i = 0; i < data.length; i++)
 				if (id_marker == data[i].id)
 					number_c_ofID += 1;
-			if (number_c_ofID > comment_count)
-				$("#update_comments").html("<button class='function' style='float: right;' type='submit' onclick='updateComments()'>Visualizza Altri Commenti</button>");
+		} // stampo in ogni caso il bottone, che sia marcatore x oppure tutti i commenti
+		if (number_c_ofID > comment_count) //lo stampo solo se ci sono ancora commenti da visualizzare
+			$("#update_comments").html("<button class='function' style='float: right;' type='submit' onclick='updateComments()'>Visualizza Altri Commenti</button>");
 			// se li carico tutti in pagina e non voglio più visualizzarli, lo nascondo
-			else
-				$("#update_comments").empty();
-		}
+		else
+			$("#update_comments").empty();
+
 
 		comment_count=0;
 	})
