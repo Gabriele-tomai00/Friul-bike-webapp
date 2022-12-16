@@ -7,11 +7,9 @@ module.exports = class DataBaseHandler {
         this.loadDB();
     }
 
-    checkForFile(callback)
-    {
+    checkForFile(callback) {
         this.fs.exists(this.fileName, function (exists) {
-            if(exists)
-            {
+            if (exists) {
                 callback();
             } else {
                 fs.writeFile(this.fileName, '[]', function () {
@@ -26,7 +24,7 @@ module.exports = class DataBaseHandler {
         this.saveToStorage();
     }
 
-    loadDB(){
+    loadDB() {
         try {
             if (this.fs.existsSync(this.fileName)) {
                 this.db = JSON.parse(this.fs.readFileSync(this.fileName, 'utf8'));
@@ -34,17 +32,16 @@ module.exports = class DataBaseHandler {
                 this.saveToStorage();
                 console.log("Save empyy");
             }
-          } catch(err) {
+        } catch (err) {
             console.error(err)
             this.saveToStorage();
-          }
+        }
     }
 
-    saveToStorage(){
+    saveToStorage() {
         let toSave = JSON.stringify(this.db);
         console.log(toSave);
-        this.fs.writeFile(this.fileName, toSave, 'utf8', function (err, data) 
-        { 
+        this.fs.writeFile(this.fileName, toSave, 'utf8', function (err, data) {
             console.log(data, err);
         })
     }
