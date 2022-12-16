@@ -299,10 +299,10 @@ let show_gl = false; //parametro per alternare la funzionalità del bottone che 
 //prima chiamata all'apertura della pagina, per caricare i commenti e stampare in console il numero
 window.onload = function() {
 	getComments("0"); //perchè li voglio tutti
-	let done = $.get("/api/comments/list/mtb/m1").done(function(data) {	 //tento di caricare i commenti
+	$.get("/api/comments/list/mtb/m1").done(function(data) {	 //tento di caricare i commenti
 		data = JSON.parse(data);
 		console.log ("numero totale di commenti: ", data.length);
-	})
+	});
 };
 
 function updateComments() {
