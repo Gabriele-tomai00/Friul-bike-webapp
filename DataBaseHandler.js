@@ -41,7 +41,7 @@ module.exports = class DataBaseHandler {
 
     saveToStorage() {
         let toSave = JSON.stringify((this.db), null, 4);  //secondo e terzo parametro per formattare correttamente il json
-        this.fs.writeFile(this.fileName, toSave, 'utf8', function (err, data) {
+        this.fs.writeFile(this.fileName, toSave, 'utf8', function (err, dataComments) {
         })
     }
 }

@@ -289,9 +289,9 @@ function showPosition(position) {
 //prima chiamata all'apertura della pagina, per caricare i commenti e stampare in console il numero
 window.onload = function () {
     getComments("0"); //perchè li voglio tutti
-    $.get("/api/comments/list/mtb/m1").done(function (data) {	 //tento di caricare i commenti
-        data = JSON.parse(data);
-        console.log("numero totale di commenti: ", data.length);
+    $.get("/api/comments/list/mtb/m1").done(function (dataComments) {	 //tento di caricare i commenti
+        dataComments = JSON.parse(dataComments);
+        console.log("numero totale di commenti: ", dataComments.length);
     });
 };
 
@@ -344,17 +344,17 @@ let number_c = 0;
 function getComments(id_marker) {
     let comment_count = 0; 						 //contatore dei commenti
     number_c += 1;
-    $.get("/api/comments/list/mtb/m1").done(function (data) {	 //tento di caricare i commenti
+    $.get("/api/comments/list/mtb/m1").done(function (dataComments) {	 //tento di caricare i commenti
 
-        data = JSON.parse(data);
+        dataC = JSON.parse(dataComments);
         $("#comments").each(function () {
             $(this).empty();
             $(this).empty();
         });
 
         if (id_marker === "0") {  //se uguale a zero, visualizzo tutti i commenti
-            for (let i = data.length - 1; i >= 0 && comment_count < (6 * number_c); i--) {
-                let comment = data[i];
+            for (let i = dataC.length - 1; i >= 0 && comment_count < (6 * number_c); i--) {
+                let comment = dataC[i];
                 $(`#comments`).append(`  
 										<div class="modal-content">
 										    <div class="modal-header">
@@ -372,8 +372,8 @@ function getComments(id_marker) {
             }
 
         } else {  //se diverso da zero, voglio visualizzare solo certi commenti
-            for (let i = data.length - 1; i >= 0 && comment_count < (6 * number_c); i--) {
-                let comment = data[i];
+            for (let i = dataC.length - 1; i >= 0 && comment_count < (6 * number_c); i--) {
+                let comment = dataC[i];
                 if (id_marker === comment.id) { //visualizzo solo i commenti con quell'id
                     $(`#comments`).append(`  						 		
 										<div class="modal-content">
@@ -399,10 +399,10 @@ function getComments(id_marker) {
 
         // se ci sono ancora commenti da visualizzare, inserisco il bottone per visualizzarli
         // calcolo il numero di commenti per quell'id, per sapere se devo stampare il bottone "visualizza altri commenti"
-        let number_c_ofID = data.length;
+        let number_c_ofID = dataC.length;
         if (id_marker != "0") { //calcolo il numero dei commenti per quel marcatore
             number_c_ofID = 0;
-            for (let i = 0; i < data.length; i++) if (id_marker == data[i].id) number_c_ofID += 1;
+            for (let i = 0; i < dataC.length; i++) if (id_marker == dataC[i].id) number_c_ofID += 1;
         } // stampo in ogni caso il bottone, che sia marcatore x oppure tutti i commenti
         if (number_c_ofID > comment_count) //lo stampo solo se ci sono ancora commenti da visualizzare
             $("#update_comments").html("<button class='function' style='float: right;' type='submit' onclick='updateComments()'>Visualizza Altri Commenti</button>");
