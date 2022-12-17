@@ -288,7 +288,7 @@ function showPosition(position) {
 
 //prima chiamata all'apertura della pagina, per caricare i commenti e stampare in console il numero
 window.onload = function () {
-    getComments("0"); //perchè li voglio tutti
+    getComments("0", 0); //perchè li voglio tutti, e ne mostro 6
     $.get("/api/comments/list/mtb/m1").done(function (dataComments) {	 //tento di caricare i commenti
         dataComments = JSON.parse(dataComments);
         console.log("numero totale di commenti: ", dataComments.length);
@@ -297,7 +297,7 @@ window.onload = function () {
 
 function updateComments() {
     let id_marker = document.getElementById("mySelect").value;  //l'id_marker vale 1 o 2 o 3...
-    getComments(id_marker);
+    getComments(id_marker, 6);
 }
 
 
@@ -327,7 +327,7 @@ function generateComment(c_id) {
 
         $.post("/api/comments/add/mtb/m1", objComment)  //invio il commento e poi visualizzo
             .done(function () {
-                getComments("0");
+                getComments("0", 1);
                 updateComments(); 			//per ripristinare la visualizzazione dei soli commenti d'interesse
             })
             .fail(function (data) {
@@ -340,10 +340,12 @@ function generateComment(c_id) {
 
 //parametri per la funzione getComments (per visualizzare solo i commenti di un marcatore)
 let number_c = 0;
-
-function getComments(id_marker) {
+function getComments(id_marker, counter_c) { //parametri: id commenti (da visualizzare), numero di commenti da visualizzare
     let comment_count = 0; 						 //contatore dei commenti
-    number_c += 1;
+    if (counter_c == 0)
+        number_c = 6;  //il num di commenti da visualizzare torna quello iniziale: 6
+    else
+        number_c += counter_c;
     $.get("/api/comments/list/mtb/m1").done(function (dataComments) {	 //tento di caricare i commenti
 
         dataC = JSON.parse(dataComments);
@@ -353,7 +355,7 @@ function getComments(id_marker) {
         });
 
         if (id_marker === "0") {  //se uguale a zero, visualizzo tutti i commenti
-            for (let i = dataC.length - 1; i >= 0 && comment_count < (6 * number_c); i--) {
+            for (let i = dataC.length - 1; i >= 0 && comment_count < (number_c); i--) {
                 let comment = dataC[i];
                 $(`#comments`).append(`  
 										<div class="modal-content">
@@ -372,7 +374,7 @@ function getComments(id_marker) {
             }
 
         } else {  //se diverso da zero, voglio visualizzare solo certi commenti
-            for (let i = dataC.length - 1; i >= 0 && comment_count < (6 * number_c); i--) {
+            for (let i = dataC.length - 1; i >= 0 && comment_count < (number_c); i--) {
                 let comment = dataC[i];
                 if (id_marker === comment.id) { //visualizzo solo i commenti con quell'id
                     $(`#comments`).append(`  						 		
