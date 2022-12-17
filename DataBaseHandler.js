@@ -39,7 +39,7 @@ module.exports = class DataBaseHandler {
     }
 
     saveToStorage() {
-        let toSave = JSON.stringify(this.db);
+        let toSave = JSON.stringify((this.db), null, 4);
         console.log(toSave);
         this.fs.writeFile(this.fileName, toSave, 'utf8', function (err, data) {
             console.log(data, err);
@@ -47,3 +47,6 @@ module.exports = class DataBaseHandler {
     }
 }
 
+var fs = require('fs');
+
+//fs.writeFile('test.json', JSON.stringify({ a:1, b:2, c:3 }, null, 4));
