@@ -112,5 +112,11 @@
         "name": "Leonardo",
         "text": "la prossima volta che torno a Sauris voglio fare un giro in barca su questo lago bellissimo",
         "date": "17/12/2022"
+    },
+    {
+        "name": "Hassan",
+        "text": "In Italia ci sono dei percorsi cicloturistici di livello, ma non belli quanto in Canada",
+        "id": "1",
+        "date": "22/12/2022"
     }
 ]
