@@ -317,7 +317,7 @@ function generateComment(c_id) {
         alert("hai lasciato vuoto uno o più campi!");
     } else {
         let objComment = {
-            id: c_id, name: c_name, text: c_text, date: datedmy
+            name: c_name, text: c_text, id: c_id, date: datedmy
         };
         $('#c_name').val('');					//pulisco gli inputype
         $('#textcomment').val('');
