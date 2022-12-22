@@ -1,4 +1,4 @@
-function show_links() {
+function showLinks() {
     let x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
