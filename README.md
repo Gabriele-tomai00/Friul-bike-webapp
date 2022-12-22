@@ -3,7 +3,7 @@ progetto per esame
 
 
 ISTRUZIONI PER L'ESECUZIONE
-- node server.js
+- node app.js
 - tramite browser (consigliato Google Chrome) recarsi alla pagina http://127.0.0.1:1337/Home.html
 
 CONSIGLI PER EVITARE PROBLEMI
