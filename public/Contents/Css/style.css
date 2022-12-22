@@ -337,14 +337,20 @@ div.function_map {
     }
 }
 
+@media screen and (max-width: 500px) {
+    /*bottoni sotto la mappa meglio allineati e della stessa dimensione */
+    .function {
+        margin: 5px;
+        width: 100%;
+    }
+}
+
 
 @media screen and (max-width: 450px) {
-
-    #myBtn { /* Bottom: "Commenta  */
+    #myBtn {
         display: block;
         margin: 0 auto 10px;
     }
-
 }
 
 #mySelect {
