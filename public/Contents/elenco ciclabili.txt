@@ -1,0 +1,3282 @@
+	<table>
+     <tr>
+          <td><strong>NOME</strong></td>
+          <td><strong>DISTANZA</strong></td>
+          <td><strong>TIPO</strong></td>
+          <td><strong>FONDO</strong></td>
+          <td><strong>PENDENZA MAX</strong></td>
+          <td><strong>DISLIVELLO</strong></td>
+     </tr>
+     <tr>
+          <td>A passeggio fra due Italia - Slovenia</td>
+          <td>27 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>6,00%</td>
+          <td>54 m</td>
+     </tr>
+     <tr>
+          <td>A13 del Natisone: Udine - Cividale - Stupizza</td>
+          <td>17 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>31 m</td>
+     </tr>
+     <tr>
+          <td>Aiello - Joannis</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Aiello del Friuli - Perteole - Ruda</td>
+          <td>4 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>9 m</td>
+     </tr>
+     <tr>
+          <td>Alpeadria - Tratto Tarvisio - Pontebba</td>
+          <td>26 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>20,00%</td>
+          <td>264 m</td>
+     </tr>
+     <tr>
+          <td>Alpeadria: Tratto Coccau - Villaco</td>
+          <td>25 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>26,00%</td>
+          <td>201 m</td>
+     </tr>
+     <tr>
+          <td>Alpeadria: Tratto Palmanova - Grado</td>
+          <td>27 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>40 m</td>
+     </tr>
+     <tr>
+          <td>Alpeadria: Tratto Pontebba  Resiutta</td>
+          <td>21 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>27,00%</td>
+          <td>585 m</td>
+     </tr>
+     <tr>
+          <td>Alpeadria: Tratto Resiutta - Carnia</td>
+          <td>14 km</td>
+          <td>strada</td>
+          <td>misto</td>
+          <td>12,00%</td>
+          <td>362 m</td>
+     </tr>
+     <tr>
+          <td>Alta Val Cellina: doppio anello</td>
+          <td>40 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>887 m</td>
+     </tr>
+     <tr>
+          <td>Aquileia: dalla campagna al mare</td>
+          <td>22 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>6,00%</td>
+          <td>7 m</td>
+     </tr>
+     <tr>
+          <td>Attimis - Porzus - Subit (anello)</td>
+          <td>20 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>916 m</td>
+     </tr>
+     <tr>
+          <td>Bagnaria Arsa: Ex-tiro al piattello</td>
+          <td>3 km</td>
+          <td>sentiero</td>
+          <td>ghiaia</td>
+          <td>3,00%</td>
+          <td>6 m</td>
+     </tr>
+     <tr>
+          <td>Bannia - San Vito al Tagliamento</td>
+          <td>7 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>9 m</td>
+     </tr>
+     <tr>
+          <td>Barcis: lungolago e vecchia strada per Molassa</td>
+          <td>8 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>18,00%</td>
+          <td>73 m</td>
+     </tr>
+     <tr>
+          <td>Barcis: sterrato per Malga Valli e Caolana</td>
+          <td>3 km</td>
+          <td>ciclostrada</td>
+          <td>ghiaia</td>
+          <td>24,00%</td>
+          <td>56 m</td>
+     </tr>
+     <tr>
+          <td>Basiliano - Lestizza - Bertiolo (anello)</td>
+          <td>28 km</td>
+          <td>strada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>56 m</td>
+     </tr>
+     <tr>
+          <td>Basso Judrio</td>
+          <td>26 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>170 m</td>
+     </tr>
+     <tr>
+          <td>Basso Tagliamento</td>
+          <td>96 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>3,00%</td>
+          <td>49 m</td>
+     </tr>
+     <tr>
+          <td>Beivars - Godia</td>
+          <td>2 km</td>
+          <td>ciclopedonale</td>
+          <td>ghiaia</td>
+          <td>1,00%</td>
+          <td>10 m</td>
+     </tr>
+     <tr>
+          <td>Beivars - San Gottardo</td>
+          <td>2 km</td>
+          <td>ciclopedonale</td>
+          <td>terra</td>
+          <td>2,00%</td>
+          <td>13 m</td>
+     </tr>
+     <tr>
+          <td>Beivars: via Bariglaria</td>
+          <td>2 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>6 m</td>
+     </tr>
+     <tr>
+          <td>Belvedere - Grado</td>
+          <td>5 km</td>
+          <td>ciclabile</td>
+          <td>ghiaia</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Bibione - Cesarolo (anello)</td>
+          <td>33 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>10,00%</td>
+          <td>7 m</td>
+     </tr>
+     <tr>
+          <td>Bibione 3 - Faro</td>
+          <td>8 km</td>
+          <td>ciclabile</td>
+          <td>terra</td>
+          <td>1,00%</td>
+          <td>7 m</td>
+     </tr>
+     <tr>
+          <td>Bibione: ciclabile del Tagliamento</td>
+          <td>30 km</td>
+          <td>ciclopedonale</td>
+          <td>ghiaia</td>
+          <td>1,00%</td>
+          <td>11 m</td>
+     </tr>
+     <tr>
+          <td>Bibione: lungomare</td>
+          <td>5 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>2 m</td>
+     </tr>
+     <tr>
+          <td>Bibione: via Baseleghe - via Orsa Maggiore - via Urano</td>
+          <td>6 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>5 m</td>
+     </tr>
+     <tr>
+          <td>Bibioni: terzo bacino in bici</td>
+          <td>29 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Bordano - Cavazzo - Venzone, anello San Simeone</td>
+          <td>22 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>335 m</td>
+     </tr>
+     <tr>
+          <td>Bordiga - Torviscosa</td>
+          <td>5 km</td>
+          <td>sentiero</td>
+          <td>ghiaia</td>
+          <td>1,00%</td>
+          <td>12 m</td>
+     </tr>
+     <tr>
+          <td>Borgo Fornasir - San Martino</td>
+          <td>3 km</td>
+          <td>sentiero</td>
+          <td>ghiaia</td>
+          <td>2,00%</td>
+          <td>5 m</td>
+     </tr>
+     <tr>
+          <td>Bovec (Slovenia) - Tarvisio</td>
+          <td>30 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>724 m</td>
+     </tr>
+     <tr>
+          <td>Buttrio - Cividale (anello)</td>
+          <td>37 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>8,00%</td>
+          <td>52 m</td>
+     </tr>
+     <tr>
+          <td>Buttrio: ciclabile impianti sportivi</td>
+          <td>1 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>3,00%</td>
+          <td>9 m</td>
+     </tr>
+     <tr>
+          <td>Buttrio: giro del Montecristo</td>
+          <td>9 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>23,00%</td>
+          <td>54 m</td>
+     </tr>
+     <tr>
+          <td>Canebola - Platischis - Campo di Bonis - Subit - Canebola</td>
+          <td>25 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>23,00%</td>
+          <td>477 m</td>
+     </tr>
+     <tr>
+          <td>Carso - Giro semplice</td>
+          <td>28 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>182 m</td>
+     </tr>
+     <tr>
+          <td>Carso e Istria: Hrastovlje (Slovenia)</td>
+          <td>38 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>24,00%</td>
+          <td>494 m</td>
+     </tr>
+     <tr>
+          <td>Carso Triestino</td>
+          <td>23 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>18,00%</td>
+          <td>348 m</td>
+     </tr>
+     <tr>
+          <td>Carso Triestino</td>
+          <td>23 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>18,00%</td>
+          <td>348 m</td>
+     </tr>
+     <tr>
+          <td>Carso: tra le trincee della Grande Guerra (anello)</td>
+          <td>24 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>25,00%</td>
+          <td>220 m</td>
+     </tr>
+     <tr>
+          <td>Carso: tra vigne e castellieri</td>
+          <td>25 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>7,00%</td>
+          <td>93 m</td>
+     </tr>
+     <tr>
+          <td>Casarsa della Delizia: ciclabile Viale Udine SS13</td>
+          <td>5 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>10 m</td>
+     </tr>
+     <tr>
+          <td>Case di Manzano - Oleis</td>
+          <td>3 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>8,00%</td>
+          <td>15 m</td>
+     </tr>
+     <tr>
+          <td>Castello di Porcia - Castello di Torre</td>
+          <td>12 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>7,00%</td>
+          <td>22 m</td>
+     </tr>
+     <tr>
+          <td>Cavazzo Carnico - Flagogna - Sella Chianzutan (anello)</td>
+          <td>71 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>963 m</td>
+     </tr>
+     <tr>
+          <td>Cecchini di Pasiano - Bosco della Mantova (anello)</td>
+          <td>19 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>10 m</td>
+     </tr>
+     <tr>
+          <td>Cerneglons - Casali Propetto (anello)</td>
+          <td>7 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>13 m</td>
+     </tr>
+     <tr>
+          <td>Cervignano - Fiumicello - Grado - Aquileia - Cervignano</td>
+          <td>46 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>11 m</td>
+     </tr>
+     <tr>
+          <td>Cervignano - Monte San Michele (anello)</td>
+          <td>42 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>23,00%</td>
+          <td>250 m</td>
+     </tr>
+     <tr>
+          <td>Cervignano - Pordenone</td>
+          <td>29 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>7 m</td>
+     </tr>
+     <tr>
+          <td>Cervignano del Friuli - Grado</td>
+          <td>64 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>13 m</td>
+     </tr>
+     <tr>
+          <td>Cervignano del Friuli - Palmanova (anello)</td>
+          <td>63 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>53 m</td>
+     </tr>
+     <tr>
+          <td>Cervignano del Friuli - San Martino</td>
+          <td>3 km</td>
+          <td>ciclopedonale</td>
+          <td>ghiaia</td>
+          <td>5,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Chiassis - monte zoncolan</td>
+          <td>16 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Chiusaforte - Altopiano Montasio</td>
+          <td>22 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>26,00%</td>
+          <td>1137 m</td>
+     </tr>
+     <tr>
+          <td>Ciclabile di Claut (anello)</td>
+          <td>18 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>25,00%</td>
+          <td>126 m</td>
+     </tr>
+     <tr>
+          <td>Ciclabile Pontebbana: san Giovanni del Tempio - Sacile</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>1 m</td>
+     </tr>
+     <tr>
+          <td>Ciclabile Slow Collio</td>
+          <td>9 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>22,00%</td>
+          <td>31 m</td>
+     </tr>
+     <tr>
+          <td>Ciclabile Triestina: San Giacomo - Sant Antonio in bosco - Draga Sant'Elia</td>
+          <td>11 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>21,00%</td>
+          <td>295 m</td>
+     </tr>
+     <tr>
+          <td>Ciclovia Friul@Mare</td>
+          <td>51 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>101 m</td>
+     </tr>
+     <tr>
+          <td>Cimolais - Rifugio Pordenone</td>
+          <td>14 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>24,00%</td>
+          <td>585 m</td>
+     </tr>
+     <tr>
+          <td>Cividale - Slovenia - Prossenicco (anello)</td>
+          <td>74 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>29,00%</td>
+          <td>962 m</td>
+     </tr>
+     <tr>
+          <td>Cividale - Tarvisio</td>
+          <td>104 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>27,00%</td>
+          <td>1599 m</td>
+     </tr>
+     <tr>
+          <td>Cividale - Valli del Natisone - Tribil - Castelmonte (anello)</td>
+          <td>40 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>25,00%</td>
+          <td>554 m</td>
+     </tr>
+     <tr>
+          <td>Cividale del Friuli - MTB hard</td>
+          <td>18 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>27,00%</td>
+          <td>416 m</td>
+     </tr>
+     <tr>
+          <td>Cividale del Friuli-Fornalis-Slovenia-Palmanova-Aquileia-Grado</td>
+          <td>61 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>133 m</td>
+     </tr>
+     <tr>
+          <td>Cividale del Friuli: anello Nord del Natisone</td>
+          <td>9 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>10,00%</td>
+          <td>31 m</td>
+     </tr>
+     <tr>
+          <td>Claut - Rifugio Pussa</td>
+          <td>13 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>22,00%</td>
+          <td>375 m</td>
+     </tr>
+     <tr>
+          <td>Coccau - Villach (Trivio R1,R2,R3)</td>
+          <td>27 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>19,00%</td>
+          <td>206 m</td>
+     </tr>
+     <tr>
+          <td>Codroipo - Lignano Sabbiadoro</td>
+          <td>50 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Codroipo - San Daniele del Friuli - Ragogna</td>
+          <td>39 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>9,00%</td>
+          <td>195 m</td>
+     </tr>
+     <tr>
+          <td>Col Palis, Sequals</td>
+          <td>6 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>25,00%</td>
+          <td>283 m</td>
+     </tr>
+     <tr>
+          <td>Collegamento Ippovia - Rogge di Udine</td>
+          <td>6 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>15 m</td>
+     </tr>
+     <tr>
+          <td>Collegamento ippovia - rogge Udine a sud Tricesimo</td>
+          <td>6 km</td>
+          <td>strada</td>
+          <td>misto</td>
+          <td>22,00%</td>
+          <td>59 m</td>
+     </tr>
+     <tr>
+          <td>Collegamento ippovia - Tricesimo lungo il Soima</td>
+          <td>6 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>10,00%</td>
+          <td>44 m</td>
+     </tr>
+     <tr>
+          <td>Colli urbani di Gorizia</td>
+          <td>14 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>10,00%</td>
+          <td>218 m</td>
+     </tr>
+     <tr>
+          <td>Colline friulane: Pagnacco - Tavagnacco - Buja - Colloredo di Monte Albano(anello)</td>
+          <td>38 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>16,00%</td>
+          <td>97 m</td>
+     </tr>
+     <tr>
+          <td>Collio Friulano e Sloveno - Monte Korada</td>
+          <td>30 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>23,00%</td>
+          <td>686 m</td>
+     </tr>
+     <tr>
+          <td>Collio sloveno e friulano</td>
+          <td>25 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>220 m</td>
+     </tr>
+     <tr>
+          <td>Cordenons: ciclabile di Via Martiri e Via Cortina</td>
+          <td>2 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>11 m</td>
+     </tr>
+     <tr>
+          <td>Cordenons: ciclabile via Lozzetta</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>4,00%</td>
+          <td>8 m</td>
+     </tr>
+     <tr>
+          <td>Cormon - Vencò - Lig - Kanal - Gorizia - Cooormons</td>
+          <td>67 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Cormons - Medea</td>
+          <td>7 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>21 m</td>
+     </tr>
+     <tr>
+          <td>Cortale - Godia</td>
+          <td>6 km</td>
+          <td>ciclopedonale</td>
+          <td>ghiaia</td>
+          <td>1,00%</td>
+          <td>33 m</td>
+     </tr>
+     <tr>
+          <td>Coste slovene</td>
+          <td>30 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>157 m</td>
+     </tr>
+     <tr>
+          <td>Crostis - Zoncolan</td>
+          <td>55 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Dalla Soima al Cormor</td>
+          <td>22 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>11,00%</td>
+          <td>89 m</td>
+     </tr>
+     <tr>
+          <td>diramazione per Terzo d'Aquileia</td>
+          <td>2 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>2,00%</td>
+          <td>3 m</td>
+     </tr>
+     <tr>
+          <td>Dolegnano - Rosazzo</td>
+          <td>3 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>13,00%</td>
+          <td>104 m</td>
+     </tr>
+     <tr>
+          <td>Dolomititrail: Comelico Superiore - Auronzo - Sappada-Forni Avoltri - Sappada - Val Visdende</td>
+          <td>80 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>1459 m</td>
+     </tr>
+     <tr>
+          <td>Domanins - Rauscedo</td>
+          <td>2 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>3,00%</td>
+          <td>15 m</td>
+     </tr>
+     <tr>
+          <td>Drenchia - Anello del Colovrat e salita al monte Kuk</td>
+          <td>11 km</td>
+          <td>strada</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>287 m</td>
+     </tr>
+     <tr>
+          <td>Ex Ferrovia - Draga - Cocusso - Lipica - Draga</td>
+          <td>22 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>447 m</td>
+     </tr>
+     <tr>
+          <td>Fiume - Marzinis - San Giovanni - Prodolone</td>
+          <td>27 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>2,00%</td>
+          <td>15 m</td>
+     </tr>
+     <tr>
+          <td>Fogliano Redipuglia - Palmanova</td>
+          <td>28 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>3,00%</td>
+          <td>22 m</td>
+     </tr>
+     <tr>
+          <td>Fontanafredda - Colle di S. Lucia (anello)</td>
+          <td>23 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>21,00%</td>
+          <td>106 m</td>
+     </tr>
+     <tr>
+          <td>Fontanafredda - Marsure (anello)</td>
+          <td>48 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>10,00%</td>
+          <td>226 m</td>
+     </tr>
+     <tr>
+          <td>Fontanafredda: Ronche - Villadolt</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>5 m</td>
+     </tr>
+     <tr>
+          <td>Fontanafredda: verso Ronche per Via Buonarroti/Via Pellico</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Fontanafredda: via Curtoledo</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>2 m</td>
+     </tr>
+     <tr>
+          <td>Forni avoltri - rifugio Marinelli</td>
+          <td>11 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>477 m</td>
+     </tr>
+     <tr>
+          <td>Fossalon</td>
+          <td>9 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Fossalon</td>
+          <td>3 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Frasatti: giro su sentiero</td>
+          <td>28 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Friuli collinare</td>
+          <td>89 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>344 m</td>
+     </tr>
+     <tr>
+          <td>Fusine - Kranjska Gora - Jesenice</td>
+          <td>31 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>12,00%</td>
+          <td>275 m</td>
+     </tr>
+     <tr>
+          <td>FVG1 Alpe Adria Udine-Grado</td>
+          <td>58 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>FVG1 Alpe Adria Venzone - Udine</td>
+          <td>57 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>FVG2 Adria Bike Grado-Monfalcone</td>
+          <td>41 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>10,00%</td>
+          <td>9 m</td>
+     </tr>
+     <tr>
+          <td>FVG3 Aviano - Montereale Valcellina</td>
+          <td>13 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>7,00%</td>
+          <td>142 m</td>
+     </tr>
+     <tr>
+          <td>FVG3 Budoia - Aviano</td>
+          <td>7 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>16,00%</td>
+          <td>75 m</td>
+     </tr>
+     <tr>
+          <td>Fvg3 Budoia - Cordignano</td>
+          <td>19 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>22,00%</td>
+          <td>58 m</td>
+     </tr>
+     <tr>
+          <td>FVG3 Cavasso Nuovo - Pinzano al Tagliamento</td>
+          <td>21 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>11,00%</td>
+          <td>131 m</td>
+     </tr>
+     <tr>
+          <td>FVG3 Cividale - Cormons</td>
+          <td>21 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>10,00%</td>
+          <td>83 m</td>
+     </tr>
+     <tr>
+          <td>Fvg3 cividale del friuli - gemona del friuli</td>
+          <td>43 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>18,00%</td>
+          <td>169 m</td>
+     </tr>
+     <tr>
+          <td>Fvg3 gemona del friuli - budoia</td>
+          <td>83 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>21,00%</td>
+          <td>253 m</td>
+     </tr>
+     <tr>
+          <td>Fvg3 gorizia-budoia</td>
+          <td>163 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>23,00%</td>
+          <td>300 m</td>
+     </tr>
+     <tr>
+          <td>Fvg3 gorizia-cividale del friuli</td>
+          <td>38 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>12,00%</td>
+          <td>98 m</td>
+     </tr>
+     <tr>
+          <td>FVG3 Maniago - Meduno</td>
+          <td>9 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>12,00%</td>
+          <td>49 m</td>
+     </tr>
+     <tr>
+          <td>FVG3 Montereale Valcellina - Maniago</td>
+          <td>7 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>15,00%</td>
+          <td>45 m</td>
+     </tr>
+     <tr>
+          <td>FVG4 Pordenone - Codroipo</td>
+          <td>35 km</td>
+          <td>strada</td>
+          <td>misto</td>
+          <td>10,00%</td>
+          <td>41 m</td>
+     </tr>
+     <tr>
+          <td>FVG8 Venzone - Paluzza</td>
+          <td>30 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>243 m</td>
+     </tr>
+     <tr>
+          <td>Gabria - Cerje - Lokvica - Monte san michele</td>
+          <td>36 km</td>
+          <td>strada</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>304 m</td>
+     </tr>
+     <tr>
+          <td>Gabria - monte tristelj</td>
+          <td>33 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>588 m</td>
+     </tr>
+     <tr>
+          <td>Gemona - Buia (collegamento all'Ippovia del Cormor)</td>
+          <td>10 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>3,00%</td>
+          <td>11 m</td>
+     </tr>
+     <tr>
+          <td>Gemona - Cuarnan</td>
+          <td>31 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>850 m</td>
+     </tr>
+     <tr>
+          <td>Gemona - Lago dei tre Comuni</td>
+          <td>42 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Gemona - Montenars - Tarcento - Artegna (anello)</td>
+          <td>29 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>29,00%</td>
+          <td>488 m</td>
+     </tr>
+     <tr>
+          <td>Gemona - Tarcento - Alle Sorgenti (Musi)</td>
+          <td>25 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>27,00%</td>
+          <td>541 m</td>
+     </tr>
+     <tr>
+          <td>Gemona - Venzone - Bordano - Gemona</td>
+          <td>22 km</td>
+          <td>strada</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>431 m</td>
+     </tr>
+     <tr>
+          <td>Gemona e dintorni L'A.S.eR. percorso verde</td>
+          <td>8 km</td>
+          <td>ciclopedonale</td>
+          <td>ghiaia</td>
+          <td>25,00%</td>
+          <td>289 m</td>
+     </tr>
+     <tr>
+          <td>Giais - Aviano - Caneva - Fregona (anello)</td>
+          <td>77 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>26,00%</td>
+          <td>337 m</td>
+     </tr>
+     <tr>
+          <td>Giro antico comune di Susans</td>
+          <td>4 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>18,00%</td>
+          <td>38 m</td>
+     </tr>
+     <tr>
+          <td>Giro attorno al monte Sabotino</td>
+          <td>32 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>27,00%</td>
+          <td>485 m</td>
+     </tr>
+     <tr>
+          <td>Giro Casarsa - Sesto al Reghena</td>
+          <td>35 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>26,00%</td>
+          <td>41 m</td>
+     </tr>
+     <tr>
+          <td>Giro dei ponti Tagliamento - Dignano</td>
+          <td>30 km</td>
+          <td>ciclabile</td>
+          <td>terra</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Giro del Carso parte semplice</td>
+          <td>21 km</td>
+          <td>strada</td>
+          <td>misto</td>
+          <td>12,00%</td>
+          <td>101 m</td>
+     </tr>
+     <tr>
+          <td>Giro delle malghe</td>
+          <td>31 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>1423 m</td>
+     </tr>
+     <tr>
+          <td>Giro delle Malghe Montasio</td>
+          <td>13 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>395 m</td>
+     </tr>
+     <tr>
+          <td>Giro di Carnia</td>
+          <td>150 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Giro di Carnia (variante Pontebba)</td>
+          <td>71 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>1297 m</td>
+     </tr>
+     <tr>
+          <td>Godia - Beivars - Povoletto</td>
+          <td>4 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Gorizia - Monte Sabatino</td>
+          <td>15 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>488 m</td>
+     </tr>
+     <tr>
+          <td>Gorizia - S.Michele</td>
+          <td>13 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>21,00%</td>
+          <td>233 m</td>
+     </tr>
+     <tr>
+          <td>Gorizia - San michele</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>6,00%</td>
+          <td>14 m</td>
+     </tr>
+     <tr>
+          <td>Gorizia FS - Ponte di Salcano</td>
+          <td>10 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>27,00%</td>
+          <td>102 m</td>
+     </tr>
+     <tr>
+          <td>Grado - Cervignano: tra Acque e storia (anello)</td>
+          <td>45 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>2,00%</td>
+          <td>8 m</td>
+     </tr>
+     <tr>
+          <td>Grado - isola della Kona</td>
+          <td>68 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>15,00%</td>
+          <td>5 m</td>
+     </tr>
+     <tr>
+          <td>Grado - Riserva naturale del Caneo</td>
+          <td>18 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>2,00%</td>
+          <td>5 m</td>
+     </tr>
+     <tr>
+          <td>Grions - Savorgnano - Beivars</td>
+          <td>19 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>46 m</td>
+     </tr>
+     <tr>
+          <td>I 4 anei dal nord: n.1 - rosa di Santo Stefano</td>
+          <td>4 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>2,00%</td>
+          <td>13 m</td>
+     </tr>
+     <tr>
+          <td>I 4 anei dal nord: n.2 - giallo della roggia</td>
+          <td>5 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>3,00%</td>
+          <td>12 m</td>
+     </tr>
+     <tr>
+          <td>I 4 anei dal nord: n.3 rosso - Dei 4 pioppi</td>
+          <td>11 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>2,00%</td>
+          <td>13 m</td>
+     </tr>
+     <tr>
+          <td>I 4 anei dal nord: n.4 celeste - Delle 3 acque</td>
+          <td>6 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>1,00%</td>
+          <td>8 m</td>
+     </tr>
+     <tr>
+          <td>I 4 anei dal Sud: n.5 (Cainero) e n. 7 (Malina)</td>
+          <td>13 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>6,00%</td>
+          <td>25 m</td>
+     </tr>
+     <tr>
+          <td>I 4 anelli dal sud: n. 8 (Cerneglons) e n. 6 (Selvis)</td>
+          <td>13 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>I Magredi: Vajont - Vivaro - Basaldella - Tesis - Campagna (anello)</td>
+          <td>28 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>4,00%</td>
+          <td>153 m</td>
+     </tr>
+     <tr>
+          <td>I vigneti di Zoran</td>
+          <td>13 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>12,00%</td>
+          <td>58 m</td>
+     </tr>
+     <tr>
+          <td>Interneppo - Cesclans - variante anello San Simeone</td>
+          <td>16 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>306 m</td>
+     </tr>
+     <tr>
+          <td>Ippovia Udine Buia</td>
+          <td>45 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>13,00%</td>
+          <td>119 m</td>
+     </tr>
+     <tr>
+          <td>Itinerario turistico di Rosazzo: Orsaria - Rosazzo - Manzano</td>
+          <td>19 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>113 m</td>
+     </tr>
+     <tr>
+          <td>Iudrio - Cormons (anello)</td>
+          <td>48 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>8,00%</td>
+          <td>71 m</td>
+     </tr>
+     <tr>
+          <td>La campagna pordenonese</td>
+          <td>16 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>13 m</td>
+     </tr>
+     <tr>
+          <td>La strada di Bottecchia</td>
+          <td>33 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>La valle dell'Isonzo</td>
+          <td>30 km</td>
+          <td>ciclostrada</td>
+          <td>ghiaia</td>
+          <td>29,00%</td>
+          <td>599 m</td>
+     </tr>
+     <tr>
+          <td>La valle dello iudrio</td>
+          <td>52 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>22,00%</td>
+          <td>156 m</td>
+     </tr>
+     <tr>
+          <td>Laipacco - Orsaria (anello)</td>
+          <td>27 km</td>
+          <td>ciclostrada</td>
+          <td>ghiaia</td>
+          <td>6,00%</td>
+          <td>28 m</td>
+     </tr>
+     <tr>
+          <td>Laipacco - Pradamano (anello)</td>
+          <td>13 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>23 m</td>
+     </tr>
+     <tr>
+          <td>Latisana - Lignano</td>
+          <td>17 km</td>
+          <td>strada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>12 m</td>
+     </tr>
+     <tr>
+          <td>Le alture di Polazzo</td>
+          <td>30 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Le rogge e il Tagliamento</td>
+          <td>29 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Lignano e lungo il fiume Tagliamento (anello)</td>
+          <td>65 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>12 m</td>
+     </tr>
+     <tr>
+          <td>Lignano Sabbiadoro - Bibione</td>
+          <td>39 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>1,00%</td>
+          <td>9 m</td>
+     </tr>
+     <tr>
+          <td>Lignano Sabbiadoro: lungomare</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Lignano Sabbiadoro: Pineta - Riviera - Darsena Sabbiadoro</td>
+          <td>10 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Magnano - Osoppo - Buia</td>
+          <td>36 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>16,00%</td>
+          <td>75 m</td>
+     </tr>
+     <tr>
+          <td>Magredi: Casarsa - Maniago</td>
+          <td>46 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>10,00%</td>
+          <td>275 m</td>
+     </tr>
+     <tr>
+          <td>Maniago - Fratta - Fanna - Cavasso Nuovo</td>
+          <td>10 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>7,00%</td>
+          <td>53 m</td>
+     </tr>
+     <tr>
+          <td>Manzano - Sdricca - collegamento alla ciclopedonale per Orsaria</td>
+          <td>4 km</td>
+          <td>ciclopedonale</td>
+          <td>ghiaia</td>
+          <td>21,00%</td>
+          <td>54 m</td>
+     </tr>
+     <tr>
+          <td>Marciapiede ciclopedonale di Torviscosa</td>
+          <td>1 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>1 m</td>
+     </tr>
+     <tr>
+          <td>Maron di Brugnera: ciclabile di via Taglio</td>
+          <td>3 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>3,00%</td>
+          <td>7 m</td>
+     </tr>
+     <tr>
+          <td>Medio Judrio, Lig (anello)</td>
+          <td>21 km</td>
+          <td>strada</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>466 m</td>
+     </tr>
+     <tr>
+          <td>Mereto - Santa Maria La Longa</td>
+          <td>1 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>5 m</td>
+     </tr>
+     <tr>
+          <td>Mereto di Capitolo - Palmanova</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>5 m</td>
+     </tr>
+     <tr>
+          <td>Merna - Rence (Slovenia)</td>
+          <td>22 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>25,00%</td>
+          <td>359 m</td>
+     </tr>
+     <tr>
+          <td>Monfalcone - Grado</td>
+          <td>26 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>6,00%</td>
+          <td>21 m</td>
+     </tr>
+     <tr>
+          <td>Monfalcone: Centro commerciale</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>7,00%</td>
+          <td>7 m</td>
+     </tr>
+     <tr>
+          <td>Monfalcone: Marina Julia-Via Bagni-Centro</td>
+          <td>4 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Monfalcone: Ospedale - Corso del popolo</td>
+          <td>3 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>10 m</td>
+     </tr>
+     <tr>
+          <td>Monfalcone: Panzano-Via Bonavia-V.le Cosulich-Canale Valentinis</td>
+          <td>3 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Monfalcone: Piazza della Repubblica - Via 4 Novembre</td>
+          <td>1 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>4,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Monfalcone: Via dei Bagni Nuova-Via Grado</td>
+          <td>2 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>2 m</td>
+     </tr>
+     <tr>
+          <td>Monfalcone: Via Timavo-Terme Romane-Canale Locovaz</td>
+          <td>2 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>3 m</td>
+     </tr>
+     <tr>
+          <td>Monfalcone: Via Timavo-Via Consiglio d'Europa</td>
+          <td>3 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Monte Calvario e Collio</td>
+          <td>19 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>25,00%</td>
+          <td>161 m</td>
+     </tr>
+     <tr>
+          <td>Monte Korada</td>
+          <td>53 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>24,00%</td>
+          <td>809 m</td>
+     </tr>
+     <tr>
+          <td>Monte Lanaro da Sagrado</td>
+          <td>3 km</td>
+          <td>sentiero</td>
+          <td>ghiaia</td>
+          <td>18,00%</td>
+          <td>172 m</td>
+     </tr>
+     <tr>
+          <td>Monte Mangart</td>
+          <td>11 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>29,00%</td>
+          <td>977 m</td>
+     </tr>
+     <tr>
+          <td>Monte Sabotino</td>
+          <td>23 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Monte San Michele</td>
+          <td>19 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>227 m</td>
+     </tr>
+     <tr>
+          <td>Monte Santo - N.Gorica</td>
+          <td>24 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>23,00%</td>
+          <td>578 m</td>
+     </tr>
+     <tr>
+          <td>Monte Trstelj</td>
+          <td>26 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>25,00%</td>
+          <td>454 m</td>
+     </tr>
+     <tr>
+          <td>Monte Zoncolan</td>
+          <td>10 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>27,00%</td>
+          <td>780 m</td>
+     </tr>
+     <tr>
+          <td>Monte Zoncolan (anello)</td>
+          <td>57 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>586 m</td>
+     </tr>
+     <tr>
+          <td>Monte Zoncolan (Ovaro)</td>
+          <td>13 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>1182 m</td>
+     </tr>
+     <tr>
+          <td>Montereale Valcellina - Pordenone</td>
+          <td>26 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>10,00%</td>
+          <td>271 m</td>
+     </tr>
+     <tr>
+          <td>Moruzzo, percorso Pietro Savorgnan di Brazzà</td>
+          <td>17 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>24,00%</td>
+          <td>71 m</td>
+     </tr>
+     <tr>
+          <td>Motta di Livenza - città ciclabile</td>
+          <td>52 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Muscoli - Cervignano del Friuli</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>3,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Muscoli - Strassoldo</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>3,00%</td>
+          <td>3 m</td>
+     </tr>
+     <tr>
+          <td>Novacco</td>
+          <td>2 km</td>
+          <td>strada</td>
+          <td>ghiaia</td>
+          <td>4,00%</td>
+          <td>5 m</td>
+     </tr>
+     <tr>
+          <td>Opicina - Sezana</td>
+          <td>10 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Orsaria - Manzano ciclopedonale</td>
+          <td>7 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>18,00%</td>
+          <td>66 m</td>
+     </tr>
+     <tr>
+          <td>Orzano - Moimacco</td>
+          <td>7 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>10,00%</td>
+          <td>23 m</td>
+     </tr>
+     <tr>
+          <td>Osoppo - Buia - Magnano - Artegna - Gemona</td>
+          <td>39 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>25,00%</td>
+          <td>66 m</td>
+     </tr>
+     <tr>
+          <td>Osoppo - Forte di monte festa</td>
+          <td>18 km</td>
+          <td>strada</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Osoppo - Povici</td>
+          <td>26 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>27,00%</td>
+          <td>183 m</td>
+     </tr>
+     <tr>
+          <td>Ovaro - Pesariis</td>
+          <td>45 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>29,00%</td>
+          <td>654 m</td>
+     </tr>
+     <tr>
+          <td>Pagnacco</td>
+          <td>3 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>10,00%</td>
+          <td>18 m</td>
+     </tr>
+     <tr>
+          <td>Pagnacco</td>
+          <td>66 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>25,00%</td>
+          <td>255 m</td>
+     </tr>
+     <tr>
+          <td>Pagnacco - Passo rest - Pesariis</td>
+          <td>92 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>957 m</td>
+     </tr>
+     <tr>
+          <td>Pagnacco - Pesariis</td>
+          <td>84 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Palmanova - Campolonghetto - Torviscosa e ritorno</td>
+          <td>24 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>10,00%</td>
+          <td>31 m</td>
+     </tr>
+     <tr>
+          <td>Palmanova - Privano</td>
+          <td>3 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>3,00%</td>
+          <td>11 m</td>
+     </tr>
+     <tr>
+          <td>Palmanova - Strassoldo</td>
+          <td>7 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>6,00%</td>
+          <td>21 m</td>
+     </tr>
+     <tr>
+          <td>Palmanova: Bastioni - giro esterno</td>
+          <td>5 km</td>
+          <td>sentiero</td>
+          <td>ghiaia</td>
+          <td>10,00%</td>
+          <td>8 m</td>
+     </tr>
+     <tr>
+          <td>Palmanova: Ciclopedonabile di Sottoselva</td>
+          <td>3 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Palmanova: Giro delle mura</td>
+          <td>4 km</td>
+          <td>sentiero</td>
+          <td>ghiaia</td>
+          <td>3,00%</td>
+          <td>9 m</td>
+     </tr>
+     <tr>
+          <td>Palmanove: Stazione dei treni</td>
+          <td>1 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>6,00%</td>
+          <td>3 m</td>
+     </tr>
+     <tr>
+          <td>Papariano - Monfalcone via fiume Isonzo offroad</td>
+          <td>15 km</td>
+          <td>ciclostrada</td>
+          <td>ghiaia</td>
+          <td>10,00%</td>
+          <td>11 m</td>
+     </tr>
+     <tr>
+          <td>Passo M. Croce (Timau - Mauthen)</td>
+          <td>21 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>1364 m</td>
+     </tr>
+     <tr>
+          <td>Passons buj mels farla pozzalis plasencis passons</td>
+          <td>49 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>15,00%</td>
+          <td>156 m</td>
+     </tr>
+     <tr>
+          <td>Percorsi x4 stagioni nel gemonese: Lago Cavazzo</td>
+          <td>12 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>11,00%</td>
+          <td>59 m</td>
+     </tr>
+     <tr>
+          <td>Percorso delle Risorgive</td>
+          <td>44 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>1,00%</td>
+          <td>28 m</td>
+     </tr>
+     <tr>
+          <td>Pertegada - Laguna Marano presso Lignano</td>
+          <td>13 km</td>
+          <td>ciclostrada</td>
+          <td>ghiaia</td>
+          <td>6,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Perteole - Saciletto</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>2 m</td>
+     </tr>
+     <tr>
+          <td>Pian Cansiglio da Caneva</td>
+          <td>16 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>23,00%</td>
+          <td>1082 m</td>
+     </tr>
+     <tr>
+          <td>Pian del Cansiglio</td>
+          <td>23 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>13,00%</td>
+          <td>348 m</td>
+     </tr>
+     <tr>
+          <td>Piancavallo - Sarone</td>
+          <td>30 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Piancavallo: Anello Collalto - Bivacco - Casera medico - Castaldia</td>
+          <td>8 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>23,00%</td>
+          <td>219 m</td>
+     </tr>
+     <tr>
+          <td>Piancavallo: anello Collalto - Castaldia</td>
+          <td>6 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>148 m</td>
+     </tr>
+     <tr>
+          <td>Piancavallo: anello mtb</td>
+          <td>2 km</td>
+          <td>ciclopedonale</td>
+          <td>ghiaia</td>
+          <td>12,00%</td>
+          <td>15 m</td>
+     </tr>
+     <tr>
+          <td>Piancavallo: anello panoramico</td>
+          <td>3 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>18,00%</td>
+          <td>93 m</td>
+     </tr>
+     <tr>
+          <td>Piancavallo: intinerario verso Malga Piancavallo / Tassan</td>
+          <td>3 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>12,00%</td>
+          <td>52 m</td>
+     </tr>
+     <tr>
+          <td>Piancavallo: vecchia strada Venezia delle nevi</td>
+          <td>12 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>26,00%</td>
+          <td>1059 m</td>
+     </tr>
+     <tr>
+          <td>Pista centrale di Torviscosa</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>2 m</td>
+     </tr>
+     <tr>
+          <td>Pista del Liceo di Cervignano del Friuli</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>3 m</td>
+     </tr>
+     <tr>
+          <td>Porcia - breve percorso in bici</td>
+          <td>4 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>10,00%</td>
+          <td>9 m</td>
+     </tr>
+     <tr>
+          <td>Porcia - Palse</td>
+          <td>3 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>10 m</td>
+     </tr>
+     <tr>
+          <td>Porcia - S.Lucia di Budoia - Porcia (anello)</td>
+          <td>26 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>6,00%</td>
+          <td>79 m</td>
+     </tr>
+     <tr>
+          <td>Porcia - Sant' Antonio</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>10 m</td>
+     </tr>
+     <tr>
+          <td>Porcia Anello Purlilium-Camolli</td>
+          <td>13 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>23 m</td>
+     </tr>
+     <tr>
+          <td>Porcia: ciclabile via Colombera</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>1 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone - Aviano</td>
+          <td>16 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>24,00%</td>
+          <td>240 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone - Borgomeduna</td>
+          <td>3 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>7,00%</td>
+          <td>19 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone - Budoia - Aviano - Montereale</td>
+          <td>33 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>7,00%</td>
+          <td>300 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone - Castello di Torre</td>
+          <td>4 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>7,00%</td>
+          <td>22 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone - Cicloring completo</td>
+          <td>4 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone - Cordenons</td>
+          <td>6 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>4,00%</td>
+          <td>20 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone - Parco S.Floriano a S.Giovanni di Polcenigo</td>
+          <td>16 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>4,00%</td>
+          <td>35 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone - Porcia</td>
+          <td>6 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>19 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone - Vallenoncello</td>
+          <td>7 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>2,00%</td>
+          <td>15 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone - Villanova</td>
+          <td>5 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>3,00%</td>
+          <td>21 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone: ciclabile centro direzionale</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>4,00%</td>
+          <td>10 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone: ciclabile delle scuole</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>10 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone: ciclabile di via Maestra Vecchia</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>5 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone: ciclabile di via S. Quirino</td>
+          <td>2 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>9 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone: ciclabile Via Montereale</td>
+          <td>3 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>28 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone: ciclabile Via San Giuliano e Via Nuova di Corva</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>7 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone: cicloring</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>2 m</td>
+     </tr>
+     <tr>
+          <td>Pordenone: viale Grigoletti</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>6 m</td>
+     </tr>
+     <tr>
+          <td>Porpetto: ciclabile verso San Giorgio di Nogaro</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>2 m</td>
+     </tr>
+     <tr>
+          <td>Portogruaro - i fiumi i molini ed la storia</td>
+          <td>69 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>27 m</td>
+     </tr>
+     <tr>
+          <td>Portogruaro - Sesto al Reghena (anello)</td>
+          <td>33 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>17 m</td>
+     </tr>
+     <tr>
+          <td>Povoletto - Savorgnano del Torre</td>
+          <td>7 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>6,00%</td>
+          <td>36 m</td>
+     </tr>
+     <tr>
+          <td>Pradamano - Lovaria</td>
+          <td>3 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>2,00%</td>
+          <td>13 m</td>
+     </tr>
+     <tr>
+          <td>Pradamano: ciclabile centri commerciali</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Pradamano: Paj cjamps</td>
+          <td>8 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>23 m</td>
+     </tr>
+     <tr>
+          <td>Pradumbli - Comeglians - Pesariis</td>
+          <td>46 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>26,00%</td>
+          <td>475 m</td>
+     </tr>
+     <tr>
+          <td>Prealpi Pordenonesi (anello)</td>
+          <td>128 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>26,00%</td>
+          <td>800 m</td>
+     </tr>
+     <tr>
+          <td>Premariacco - Poggiobello - b.Romagno - Premariacco (anello)</td>
+          <td>28 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>120 m</td>
+     </tr>
+     <tr>
+          <td>Prosecco - Santa Croce - Gabroviza - Prosecco</td>
+          <td>11 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>16,00%</td>
+          <td>135 m</td>
+     </tr>
+     <tr>
+          <td>Raveo - pesariis</td>
+          <td>20 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Rifugio Tamar</td>
+          <td>11 km</td>
+          <td>ciclostrada</td>
+          <td>ghiaia</td>
+          <td>18,00%</td>
+          <td>252 m</td>
+     </tr>
+     <tr>
+          <td>Riserva naturale della foce dell'Isonzo</td>
+          <td>6 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>1,00%</td>
+          <td>6 m</td>
+     </tr>
+     <tr>
+          <td>Riva dell'Ausa</td>
+          <td>1 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>1,00%</td>
+          <td>2 m</td>
+     </tr>
+     <tr>
+          <td>Riva destra del Natisone: Manzano - Trivignano (confluenza con il Torre)</td>
+          <td>9 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>27 m</td>
+     </tr>
+     <tr>
+          <td>Riva destra del Torre: Udine (Laipacco) - Trivignano</td>
+          <td>17 km</td>
+          <td>ciclostrada</td>
+          <td>ghiaia</td>
+          <td>5,00%</td>
+          <td>59 m</td>
+     </tr>
+     <tr>
+          <td>Rive - Passeggio Sant'Andrea</td>
+          <td>3 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>6,00%</td>
+          <td>12 m</td>
+     </tr>
+     <tr>
+          <td>Rogge e castelli tra Faedis e Povoletto</td>
+          <td>26 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>126 m</td>
+     </tr>
+     <tr>
+          <td>Romans - Fratta</td>
+          <td>3 km</td>
+          <td>sentiero</td>
+          <td>ghiaia</td>
+          <td>4,00%</td>
+          <td>7 m</td>
+     </tr>
+     <tr>
+          <td>Romans d'Isonzo: ciclabile di Via Nazario Sauro</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>3 m</td>
+     </tr>
+     <tr>
+          <td>Ronche di Fontanafredda - Roveredo</td>
+          <td>5 km</td>
+          <td>strada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>39 m</td>
+     </tr>
+     <tr>
+          <td>Rosazzo - Oleis (via Poggiobello)</td>
+          <td>5 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>24,00%</td>
+          <td>136 m</td>
+     </tr>
+     <tr>
+          <td>Roveredo in Piano - Budoia</td>
+          <td>10 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Roveredo in Piano - Montereale Valcellina</td>
+          <td>19 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Roveredo in Piano - San Foca</td>
+          <td>9 km</td>
+          <td>ciclostrada</td>
+          <td>ghiaia</td>
+          <td>3,00%</td>
+          <td>43 m</td>
+     </tr>
+     <tr>
+          <td>Roveredo in Piano ciclabile via 4 novembre</td>
+          <td>5 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>10 m</td>
+     </tr>
+     <tr>
+          <td>Roveredo in Piano: ciclabile di via XX Settembre</td>
+          <td>2 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>21 m</td>
+     </tr>
+     <tr>
+          <td>Roveredo in Piano: ciclabile scuole</td>
+          <td>2 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>3,00%</td>
+          <td>10 m</td>
+     </tr>
+     <tr>
+          <td>Ruda - Aquileia (Udine)</td>
+          <td>11 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>1,00%</td>
+          <td>12 m</td>
+     </tr>
+     <tr>
+          <td>S.Dorligo - Socerb (Slovenia)</td>
+          <td>4 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>20,00%</td>
+          <td>223 m</td>
+     </tr>
+     <tr>
+          <td>S.Lucia di Budoia - La Santissima percorso 2-medio</td>
+          <td>7 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>12,00%</td>
+          <td>54 m</td>
+     </tr>
+     <tr>
+          <td>S.Lucia di Budoia - Polcenigo La Santissima</td>
+          <td>6 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>13,00%</td>
+          <td>46 m</td>
+     </tr>
+     <tr>
+          <td>S.Michele al Tagliamento - Lignano (anello)</td>
+          <td>66 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>12 m</td>
+     </tr>
+     <tr>
+          <td>Sacile - S.Giovanni del Tempio</td>
+          <td>2 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Sacile: lungo Rio Paisa</td>
+          <td>3 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>10,00%</td>
+          <td>8 m</td>
+     </tr>
+     <tr>
+          <td>San Donà di Piave - Chions</td>
+          <td>36 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>San Foca - Vivaro</td>
+          <td>7 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>1,00%</td>
+          <td>15 m</td>
+     </tr>
+     <tr>
+          <td>San Giorgio di Nogaro -laguna</td>
+          <td>10 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>3,00%</td>
+          <td>7 m</td>
+     </tr>
+     <tr>
+          <td>San Giovanni al Natisone - Case di Manzano</td>
+          <td>2 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>10,00%</td>
+          <td>18 m</td>
+     </tr>
+     <tr>
+          <td>San Giovanni al Natisone - Rosazzo</td>
+          <td>4 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>13,00%</td>
+          <td>100 m</td>
+     </tr>
+     <tr>
+          <td>Savorgnano - Nimis - Savorgnano</td>
+          <td>14 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>25,00%</td>
+          <td>207 m</td>
+     </tr>
+     <tr>
+          <td>Scalata al Cristo di Forca</td>
+          <td>7 km</td>
+          <td>sentiero</td>
+          <td>asfalto</td>
+          <td>27,00%</td>
+          <td>1012 m</td>
+     </tr>
+     <tr>
+          <td>Scalata Tolmezzo - Illegio</td>
+          <td>12 km</td>
+          <td>sentiero</td>
+          <td>asfalto</td>
+          <td>26,00%</td>
+          <td>626 m</td>
+     </tr>
+     <tr>
+          <td>Sentiero Ressel</td>
+          <td>16 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>4,00%</td>
+          <td>58 m</td>
+     </tr>
+     <tr>
+          <td>Sequals</td>
+          <td>6 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>22,00%</td>
+          <td>284 m</td>
+     </tr>
+     <tr>
+          <td>Sequals - Castelnuovo, "Il gno Ort"</td>
+          <td>22 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>12,00%</td>
+          <td>98 m</td>
+     </tr>
+     <tr>
+          <td>Sequals - Lestans - Gaio - Usago (anello)</td>
+          <td>23 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Sequals - Meduna - Cosa - Spilimbergo (anello)</td>
+          <td>30 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Sequals - Monteprat - Val d'Arzino</td>
+          <td>90 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>29,00%</td>
+          <td>810 m</td>
+     </tr>
+     <tr>
+          <td>Sequals - Travesio - Maniago (anello)</td>
+          <td>38 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>22,00%</td>
+          <td>97 m</td>
+     </tr>
+     <tr>
+          <td>Sequals - Travesio - Solimbergo (anello)</td>
+          <td>14 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Sequals - Travesio: giro dei castelli</td>
+          <td>26 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>26,00%</td>
+          <td>182 m</td>
+     </tr>
+     <tr>
+          <td>Sequals - Usago - Lestans (anello)</td>
+          <td>13 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Sequals grave del Meduna</td>
+          <td>23 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>10,00%</td>
+          <td>83 m</td>
+     </tr>
+     <tr>
+          <td>Sequals Maraton Bike</td>
+          <td>20 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>27,00%</td>
+          <td>174 m</td>
+     </tr>
+     <tr>
+          <td>Sequals: anello</td>
+          <td>16 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>64 m</td>
+     </tr>
+     <tr>
+          <td>Sequals: giro del Col Palis</td>
+          <td>6 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>25,00%</td>
+          <td>80 m</td>
+     </tr>
+     <tr>
+          <td>Sequals: mezza maraton Bike</td>
+          <td>21 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>25,00%</td>
+          <td>174 m</td>
+     </tr>
+     <tr>
+          <td>Servegliano: viale Taglio</td>
+          <td>1 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>1 m</td>
+     </tr>
+     <tr>
+          <td>Slovenia: Carso sloveno vecchio stile</td>
+          <td>50 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>21,00%</td>
+          <td>238 m</td>
+     </tr>
+     <tr>
+          <td>Sorgente fiume Livenza - Vittorio Veneto</td>
+          <td>62 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>149 m</td>
+     </tr>
+     <tr>
+          <td>Sorgenti del Livenza: Sacile - Polcenigo</td>
+          <td>45 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>470 m</td>
+     </tr>
+     <tr>
+          <td>Spilimbergo (anello)</td>
+          <td>40 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>14,00%</td>
+          <td>99 m</td>
+     </tr>
+     <tr>
+          <td>Spilimbergo - San Daniele</td>
+          <td>22 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Sulle Dolomiti tra Carnia e Cadore (anello)</td>
+          <td>99 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>29,00%</td>
+          <td>1280 m</td>
+     </tr>
+     <tr>
+          <td>Susans - Ragogna - Pinzano</td>
+          <td>25 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>28,00%</td>
+          <td>114 m</td>
+     </tr>
+     <tr>
+          <td>Tagliamento - Corno</td>
+          <td>22 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>4,00%</td>
+          <td>47 m</td>
+     </tr>
+     <tr>
+          <td>Tarcento - monte bernadia - nimis</td>
+          <td>30 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Tarvisio - Valico Coccau</td>
+          <td>8 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>18,00%</td>
+          <td>79 m</td>
+     </tr>
+     <tr>
+          <td>Tarvisio - Valico Fusine in val Romana</td>
+          <td>10 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>23,00%</td>
+          <td>138 m</td>
+     </tr>
+     <tr>
+          <td>Tavagnacco - Villanova delle Grotte - Ramandolo</td>
+          <td>42 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>555 m</td>
+     </tr>
+     <tr>
+          <td>Terzo - Belvedere</td>
+          <td>10 km</td>
+          <td>ciclabile</td>
+          <td>ghiaia</td>
+          <td>2,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Tolmezzo - Buttea - Lauco (anello)</td>
+          <td>27 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Tolmezzo - Imponzo - Zuglio</td>
+          <td>8 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>27,00%</td>
+          <td>113 m</td>
+     </tr>
+     <tr>
+          <td>Tolmezzo - Invillino - Verzegnis (anello)</td>
+          <td>19 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>23,00%</td>
+          <td>225 m</td>
+     </tr>
+     <tr>
+          <td>Tolmezzo - Ovaro (anello)</td>
+          <td>45 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>25,00%</td>
+          <td>248 m</td>
+     </tr>
+     <tr>
+          <td>Tolmezzo - Terzo - Cazzaso (anello)</td>
+          <td>20 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Tolmezzo - Terzo - Zuglio</td>
+          <td>8 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>112 m</td>
+     </tr>
+     <tr>
+          <td>Tolmezzo - Venzone - Gemona (anello)</td>
+          <td>47 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>26,00%</td>
+          <td>137 m</td>
+     </tr>
+     <tr>
+          <td>Tolmezzo - Villa Santina</td>
+          <td>8 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>0 m</td>
+     </tr>
+     <tr>
+          <td>Tolmezzo - Zuglio - Fusea - Lauco - Chiassis (anello)</td>
+          <td>45 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>702 m</td>
+     </tr>
+     <tr>
+          <td>Torviscosa piscina - Villanova</td>
+          <td>5 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Torviscosa: marciapiede ciclopedonale</td>
+          <td>1 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>3 m</td>
+     </tr>
+     <tr>
+          <td>Torviscosa: pista centrale</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>2 m</td>
+     </tr>
+     <tr>
+          <td>Torviscosa: strada della ferrovia</td>
+          <td>5 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>5 m</td>
+     </tr>
+     <tr>
+          <td>Tra carso e mare sterrato per MTB</td>
+          <td>20 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>23,00%</td>
+          <td>294 m</td>
+     </tr>
+     <tr>
+          <td>Tricesimo: colline moreniche (anello)</td>
+          <td>11 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>24,00%</td>
+          <td>70 m</td>
+     </tr>
+     <tr>
+          <td>Trieste ex ferrovia della Val Rosandra</td>
+          <td>16 km</td>
+          <td>ciclopedonale</td>
+          <td>ghiaia</td>
+          <td>18,00%</td>
+          <td>443 m</td>
+     </tr>
+     <tr>
+          <td>Trieste: Trieste - Miramare</td>
+          <td>5 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>30 m</td>
+     </tr>
+     <tr>
+          <td>Triestina: Napoleonica</td>
+          <td>4 km</td>
+          <td>ciclopedonale</td>
+          <td>misto</td>
+          <td>21,00%</td>
+          <td>112 m</td>
+     </tr>
+     <tr>
+          <td>Trivignano - Papariano via fiume Isonzo offroad</td>
+          <td>21 km</td>
+          <td>ciclostrada</td>
+          <td>ghiaia</td>
+          <td>5,00%</td>
+          <td>38 m</td>
+     </tr>
+     <tr>
+          <td>Trivignano - Percoto</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>3,00%</td>
+          <td>6 m</td>
+     </tr>
+     <tr>
+          <td>Udine - ciclabile per Pradamano</td>
+          <td>4 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>12 m</td>
+     </tr>
+     <tr>
+          <td>Udine - Corno di Rosazzo - Faedis (anello)</td>
+          <td>66 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>10,00%</td>
+          <td>112 m</td>
+     </tr>
+     <tr>
+          <td>Udine - giro per le campagne (anello)</td>
+          <td>50 km</td>
+          <td>sentiero</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>109 m</td>
+     </tr>
+     <tr>
+          <td>Udine - Martignacco - San Daniele - Fagagna (anello)</td>
+          <td>50 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>145 m</td>
+     </tr>
+     <tr>
+          <td>Udine - Nimis (anello)</td>
+          <td>44 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>21,00%</td>
+          <td>167 m</td>
+     </tr>
+     <tr>
+          <td>Udine - Parco del Torre</td>
+          <td>7 km</td>
+          <td>ciclostrada</td>
+          <td>ghiaia</td>
+          <td>6,00%</td>
+          <td>35 m</td>
+     </tr>
+     <tr>
+          <td>Udine - Povoletto - Faedis - Attimis - Nimis (anello)</td>
+          <td>44 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>21,00%</td>
+          <td>167 m</td>
+     </tr>
+     <tr>
+          <td>Udine - Pradamano</td>
+          <td>3 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>4,00%</td>
+          <td>10 m</td>
+     </tr>
+     <tr>
+          <td>Udine - Tarcento - Caporetto - Cividale (anello)</td>
+          <td>114 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>766 m</td>
+     </tr>
+     <tr>
+          <td>Udine - Tavagnacco - Reana del Roiale: Rogge di Udine</td>
+          <td>11 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>45 m</td>
+     </tr>
+     <tr>
+          <td>Udine - Tavagnacco - Tricesimo</td>
+          <td>12 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>6,00%</td>
+          <td>86 m</td>
+     </tr>
+     <tr>
+          <td>Udine - Tolmezzo - Casera</td>
+          <td>102 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>1617 m</td>
+     </tr>
+     <tr>
+          <td>Udine, parco Cormor Alto - parco Cormor Basso</td>
+          <td>7 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>10,00%</td>
+          <td>22 m</td>
+     </tr>
+     <tr>
+          <td>Udine: ciclabile del Bearzi</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>6 m</td>
+     </tr>
+     <tr>
+          <td>Udine: da piazzale Osoppo a Paderno</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>6 m</td>
+     </tr>
+     <tr>
+          <td>Udine: da via Pradamano a Planis</td>
+          <td>5 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>15 m</td>
+     </tr>
+     <tr>
+          <td>Udine: Da viale Venezia al parco del Cormor basso</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>9 m</td>
+     </tr>
+     <tr>
+          <td>Udine: Parco urbano del Cormor basso</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>5,00%</td>
+          <td>9 m</td>
+     </tr>
+     <tr>
+          <td>Udine: Rizzi - parco del Cormor - Ippovia</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>3,00%</td>
+          <td>7 m</td>
+     </tr>
+     <tr>
+          <td>Udine: San Gottardo - Beivars</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>6 m</td>
+     </tr>
+     <tr>
+          <td>Udine: Stazione ferroviaria - Piazzale Cella - Viale Venezia</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>6,00%</td>
+          <td>8 m</td>
+     </tr>
+     <tr>
+          <td>Udine: viale Cadore</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>1,00%</td>
+          <td>5 m</td>
+     </tr>
+     <tr>
+          <td>Udine: viale Cadore - villaggio del sole</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>4 m</td>
+     </tr>
+     <tr>
+          <td>Udine: viale Pasolini</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>5,00%</td>
+          <td>8 m</td>
+     </tr>
+     <tr>
+          <td>Urbana Cervignano del Friuli</td>
+          <td>3 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>2 m</td>
+     </tr>
+     <tr>
+          <td>Vajont: percorso ciclopedonale</td>
+          <td>2 km</td>
+          <td>ciclopedonale</td>
+          <td>ghiaia</td>
+          <td>12,00%</td>
+          <td>29 m</td>
+     </tr>
+     <tr>
+          <td>Val Bartolo: Camporosso - Sella Bartolo</td>
+          <td>7 km</td>
+          <td>strada</td>
+          <td>ghiaia</td>
+          <td>27,00%</td>
+          <td>357 m</td>
+     </tr>
+     <tr>
+          <td>Val Colvera - Poffabro Frisanco Navarons</td>
+          <td>20 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>26,00%</td>
+          <td>245 m</td>
+     </tr>
+     <tr>
+          <td>Val di Lauco - Crostis - Zoncolan</td>
+          <td>98 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>29,00%</td>
+          <td>2003 m</td>
+     </tr>
+     <tr>
+          <td>Valichi del Carso</td>
+          <td>17 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>10,00%</td>
+          <td>226 m</td>
+     </tr>
+     <tr>
+          <td>Valle del Preval</td>
+          <td>32 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>248 m</td>
+     </tr>
+     <tr>
+          <td>Valli del Torre - Passo Tanamea - Val Resia - Resiutta</td>
+          <td>81 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>27,00%</td>
+          <td>1104 m</td>
+     </tr>
+     <tr>
+          <td>Vallone e Lago di Doberdo</td>
+          <td>17 km</td>
+          <td>ciclabile</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>150 m</td>
+     </tr>
+     <tr>
+          <td>Venzone - Gemona (variante FVG1)</td>
+          <td>9 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>15,00%</td>
+          <td>44 m</td>
+     </tr>
+     <tr>
+          <td>Venzone-Tolmezzo-Venzone</td>
+          <td>37 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>26,00%</td>
+          <td>129 m</td>
+     </tr>
+     <tr>
+          <td>Versa - Judrio - Preval</td>
+          <td>27 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>20,00%</td>
+          <td>112 m</td>
+     </tr>
+     <tr>
+          <td>Via Pontebbana: Amaro - Chiusaforte - Pontebba - Tropolach</td>
+          <td>52 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>25,00%</td>
+          <td>1275 m</td>
+     </tr>
+     <tr>
+          <td>Vidulis: ciclabile Via Nazionale</td>
+          <td>1 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>10 m</td>
+     </tr>
+     <tr>
+          <td>Villa Santina - Ampezzo - Sauris - Casera Razzo - Val Pesarina (anello)</td>
+          <td>79 km</td>
+          <td>strada</td>
+          <td>asfalto</td>
+          <td>28,00%</td>
+          <td>1446 m</td>
+     </tr>
+     <tr>
+          <td>Villa Vicentina - Aquileia - Terzo d'Aquileia</td>
+          <td>15 km</td>
+          <td>ciclostrada</td>
+          <td>misto</td>
+          <td>1,00%</td>
+          <td>8 m</td>
+     </tr>
+     <tr>
+          <td>Visco - Palmanova</td>
+          <td>2 km</td>
+          <td>ciclopedonale</td>
+          <td>asfalto</td>
+          <td>0,00%</td>
+          <td>1 m</td>
+     </tr>
+     <tr>
+          <td>Visco - San Vito al Torre</td>
+          <td>2 km</td>
+          <td>ciclabile</td>
+          <td>asfalto</td>
+          <td>3,00%</td>
+          <td>8 m</td>
+     </tr>
+     <tr>
+          <td>Visinale - Motta di Livenza</td>
+          <td>16 km</td>
+          <td>ciclostrada</td>
+          <td>asfalto</td>
+          <td>2,00%</td>
+          <td>13 m</td>
+     </tr>
+</table> 
