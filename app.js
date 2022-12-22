@@ -2,7 +2,7 @@
 const express = require('express')
 let bodyParser = require('body-parser');
 
-const DataBaseHandler = require('./Controller/DataBaseHandler');
+const DataBaseHandler = require('./public/Scripts/DataBaseHandler');
 
 const app = express()
 app.use(bodyParser.json()); // support json encoded bodies
