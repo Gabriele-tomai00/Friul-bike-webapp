@@ -347,7 +347,7 @@ div.function_map {
 
 
 @media screen and (max-width: 450px) {
-    #myBtn {
+    #comtButton {
         display: block;
         margin: 0 auto 10px;
     }
