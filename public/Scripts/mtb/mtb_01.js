@@ -348,7 +348,7 @@ function getComments(id_marker, counter_c) { //parametri: id commenti (da visual
         number_c += counter_c;
     $.get("/api/comments/list/mtb/m1").done(function (dataComments) {	 //tento di caricare i commenti
 
-        dataC = JSON.parse(dataComments);
+        let dataC = JSON.parse(dataComments);
         $("#comments").each(function () {
             $(this).empty();
             $(this).empty();
