@@ -8,6 +8,7 @@ function showLinks() {
 }
 
 let firstTime = true;
+
 function loadDescription(name) {
     let descElem = document.getElementById("desc");
 
@@ -25,15 +26,11 @@ function loadDescription(name) {
         xhttp.send();
 
         firstTime = false;
-    }
-    else
-    {
+    } else {
         if (descElem.style.display === "none") {
             descElem.style.display = "block";
             document.getElementById("loadDesc").innerHTML = "Nascondi descrizione";
-        }
-        else
-        {
+        } else {
             descElem.style.display = "none";
             document.getElementById("loadDesc").innerHTML = "Visualizza descrizione";
         }

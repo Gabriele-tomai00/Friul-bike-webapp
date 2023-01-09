@@ -340,6 +340,7 @@ function generateComment(c_id) {
 
 //parametri per la funzione getComments (per visualizzare solo i commenti di un marcatore)
 let number_c = 0;
+
 function getComments(id_marker, counter_c) { //parametri: id commenti (da visualizzare), numero di commenti da visualizzare
     let comment_count = 0; 						 //contatore dei commenti
     if (counter_c == 0)
