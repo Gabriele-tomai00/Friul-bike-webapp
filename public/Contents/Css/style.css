@@ -268,54 +268,6 @@ button,
 }
 
 
-input[type="button"]:hover,
-button:hover,
-.button:hover {
-    background-color: #ff7c96;
-}
-
-input[type="button"]:active,
-button:active,
-.button:active {
-    background-color: #ff496e;
-}
-
-input[type="button"].icon,
-button.icon,
-.button.icon {
-    padding-left: 1.35em;
-}
-
-
-input[type="button"].icon:before,
-button.icon:before,
-.button.icon:before {
-    margin-right: 0.5em;
-}
-
-input[type="button"].fit,
-button.fit,
-.button.fit {
-    display: block;
-    margin: 0 0 1em 0;
-    width: 100%;
-}
-
-
-input[type="button"].small,
-button.small,
-.button.small {
-    font-size: 0.8em;
-}
-
-
-input[type="button"].big,
-button.big,
-.button.big {
-    font-size: 1.35em;
-}
-
-
 /* Botton under map and comment button */
 
 div.function_map {
@@ -328,6 +280,12 @@ div.function_map {
     background-color: #DEB887;
     margin-bottom: 3px;
 }
+
+#loadDesc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 
 @media screen and (max-width: 800px) {
     /*bottoni sotto la mappa meglio allineati e della stessa dimensione */
@@ -634,6 +592,6 @@ div.function_map {
 }
 
 /* paragraph */
-.paths_descriptsion {
+#desc {
     text-align: justify;
 }
