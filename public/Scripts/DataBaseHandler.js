@@ -8,7 +8,7 @@ module.exports = class DataBaseHandler {
     }
 
     checkForFile(callback) {
-        this.fs.exists(this.fileName, function (exists) {
+        this.fs.access(this.fileName, function (exists) {
             if (exists) {
                 callback();
             } else {
@@ -45,5 +45,3 @@ module.exports = class DataBaseHandler {
         })
     }
 }
-
-let fs = require('fs');
