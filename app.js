@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 //per hostare tutto quello che è nella cartella public
 app.use(express.static('public'));
 
-// per la gestione dei commenti salvati in un file testuale
+// per la gestione dei commenti salvati in un file
 let dbh = new DataBaseHandler("comments.json");
 app.post('/api/comments/add/mtb/m1', function (req, res) {
     dbh.add(req.body);
