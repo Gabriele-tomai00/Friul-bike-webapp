@@ -94,44 +94,33 @@ function createMarker(choords, arrayOfMarkers, iconImage) {
         arrayOfMarkers.push(marker);  // es: shops.push(marker)
     }
     //inizialmente non visualizzo officine e colonnine sulla mappa
-    setMapOnAllshop(null);
-    setMapOnAllcharger(null);
+    setMapOnAllMarkers("shop", null);
+    setMapOnAllMarkers("charger", null);
 }
 
-function setMapOnAllshop(map) {					//carico in mappa le officine
-    for (let i = 0; i < shops.length; i++) {
-        shops[i].setMap(map);
+function setMapOnAllMarkers(typeOfMarker, map) {					//carico in mappa le officine
+    if (typeOfMarker == "shop" || typeOfMarker == "shops")
+    {
+        for (let i = 0; i < shops.length; i++)
+            shops[i].setMap(map);
     }
-}
-
-function setMapOnAllcharger(map) {
-    for (let i = 0; i < chargers.length; i++) {	//carico in mappa le colonnine
-        chargers[i].setMap(map);
+    else    // chargers
+    {
+        for (let i = 0; i < chargers.length; i++) 	//carico in mappa le colonnine
+            chargers[i].setMap(map);
     }
 }
 
 
 let show_sh = true;  //parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
-function show_shop() {
+function show_markers(typeOfMarker) {
 
     if (show_sh) {
-        setMapOnAllshop(map);
+        setMapOnAllMarkers(typeOfMarker, map);
         show_sh = false;
     } else {
-        setMapOnAllshop(null);
+        setMapOnAllMarkers(typeOfMarker, null);
         show_sh = true;
-    }
-}
-
-let show_ch = true;	//parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
-function show_charger() {
-
-    if (show_ch) {
-        setMapOnAllcharger(map);
-        show_ch = false;
-    } else {
-        setMapOnAllcharger(null);
-        show_ch = true;
     }
 }
 
