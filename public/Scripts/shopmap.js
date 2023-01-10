@@ -15,7 +15,7 @@ let mapOptions1 = {
 
 let map = new google.maps.Map(document.getElementById('shopmap'), mapOptions1);
 
-// LISTA COLONNINE DI RICARICA //
+// LISTA officine di bicliclette //
 let shops = []; // array contenente i marker con la posizione delle officine (google.maps.Marker)
 let xhttpShops = new XMLHttpRequest();
 xhttpShops.onreadystatechange = function () {
