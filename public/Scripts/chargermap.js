@@ -1,3 +1,12 @@
+function showLinks() {
+    let x = document.getElementById("topNavBar");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
 let mapOptions1 = {
     scrollwheel: false,
     zoom: 9,
@@ -6,32 +15,27 @@ let mapOptions1 = {
 
 let map = new google.maps.Map(document.getElementById('chargermap'), mapOptions1);
 
-
-/* MARKER */
-
-let marker1 = new google.maps.Marker({
-    map: map, position: new google.maps.LatLng(46.520509, 13.584922),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg'
-
-});
-
-let marker2 = new google.maps.Marker({
-    map: map, position: new google.maps.LatLng(46.186966, 12.704981),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg'
-});
+// LISTA COLONNINE DI RICARICA //
+let chargers = []; // array contenente i marker con la posizione delle officine (google.maps.Marker)
+let xhttpChargers = new XMLHttpRequest();
+xhttpChargers.onreadystatechange = function () {
+    if (this.readyState == 4 && this.status == 200) {
+        let chargersChoords = JSON.parse(this.responseText);
+        createMarker(chargersChoords, chargers, 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg');
+    }
+};
+xhttpChargers.open("GET", "../../../Contents/chargers.json", true);
+xhttpChargers.send();
 
 
-let marker3 = new google.maps.Marker({
-    map: map, position: new google.maps.LatLng(46.175804, 13.212284),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg'
-});
-
-let marker4 = new google.maps.Marker({
-    map: map, position: new google.maps.LatLng(46.028968, 12.653150),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg'
-});
-
-let marker5 = new google.maps.Marker({
-    map: map, position: new google.maps.LatLng(45.710037, 13.132824),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg'
-});
+function createMarker(choords, arrayOfMarkers, iconImage) {
+    for (let i = 0; i < choords.length; i++) {
+        let marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(choords[i].latitude, choords[i].longitude),
+            icon: iconImage,
+            optimized: true
+        });
+        arrayOfMarkers.push(marker);  // es: shops.push(marker)
+    }
+}
