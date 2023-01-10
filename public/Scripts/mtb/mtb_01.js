@@ -117,10 +117,21 @@ function show_markers(typeOfMarker) {
 
     if (show_sh) {
         setMapOnAllMarkers(typeOfMarker, map);
+        if (typeOfMarker == "shop")
+            document.getElementById("show_shop").innerHTML = "Nascondi officine";
+        else
+            document.getElementById("show_charger").innerHTML = "Nascondi Stazioni di Ricarica";
+
         show_sh = false;
     } else {
         setMapOnAllMarkers(typeOfMarker, null);
         show_sh = true;
+
+        if (typeOfMarker == "shop")
+            document.getElementById("show_shop").innerHTML = "Mostra officine";
+        else
+            document.getElementById("show_charger").innerHTML = "Mostra Stazioni di Ricarica";
+
     }
 }
 
