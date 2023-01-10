@@ -31,10 +31,10 @@ module.exports = class DataBaseHandler {
                 this.db = JSON.parse(this.fs.readFileSync(this.fileName, 'utf8'));
             } else {
                 this.saveToStorage();
-                console.log("Save empyy");
+                console.log("Vuoto");
             }
         } catch (err) {
-            console.error("catched error: ", err);
+            console.error("Errore: ", err);
             this.saveToStorage();
         }
     }
