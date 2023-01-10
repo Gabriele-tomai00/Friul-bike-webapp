@@ -58,156 +58,45 @@ camera.addListener("click", () => {
 });
 
 // LISTA OFFICINE //
-let shops = [];
-shop = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(46.120876, 13.224290),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
-    optimized: true
-});
-shops.push(shop);
-
-shop = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(46.065163, 13.239396),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
-    optimized: true
-});
-shops.push(shop);
-
-shop = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(46.100883, 13.419984),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
-    optimized: true
-});
-shops.push(shop);
-
-shop = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(45.972660, 12.975724),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
-    optimized: true
-});
-shops.push(shop);
-
-shop = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(46.026559, 12.875474),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
-    optimized: true
-});
-shops.push(shop);
-
-shop = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(45.996039, 12.708619),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
-    optimized: true
-});
-shops.push(shop);
-
-shop = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(45.942628, 13.572000),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
-    optimized: true
-});
-shops.push(shop);
-
-shop = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(46.411179, 13.024993),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
-    optimized: true
-});
-shops.push(shop);
-
-shop = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(46.523026, 13.532599),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
-    optimized: true
-});
-shops.push(shop);
-
-shop = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(46.433185, 12.347449),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
-    optimized: true
-});
-shops.push(shop);
-
-shop = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(45.807236, 13.522339),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
-    optimized: true
-});
-shops.push(shop);
-
-shop = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(45.631533, 13.811415),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
-    optimized: true
-});
-shops.push(shop);
-
-shop = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(45.649024, 13.766558),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg',
-    optimized: true
-});
-shops.push(shop);
+let shops = []; // array contenente i marker con la posizione delle officine (google.maps.Marker)
+let xhttpShops = new XMLHttpRequest();
+xhttpShops.onreadystatechange = function () {
+    if (this.readyState == 4 && this.status == 200) {
+        let shopsChoords = JSON.parse(this.responseText);
+        createMarker(shopsChoords, shops, 'https://sites.google.com/site/pathprojectunimi/images/shop.jpg');
+    }
+};
+xhttpShops.open("GET", "../../../Contents/shops.json", true);
+xhttpShops.send();
 
 // LISTA COLONNINE DI RICARICA //
-let chargers = [];
-charger = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(46.520509, 13.584922),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg',
-    optimized: true
-});
-chargers.push(charger);
+let chargers = []; // array contenente i marker con la posizione delle officine (google.maps.Marker)
+let xhttpChargers = new XMLHttpRequest();
+xhttpChargers.onreadystatechange = function () {
+    if (this.readyState == 4 && this.status == 200) {
+        let chargersChoords = JSON.parse(this.responseText);
+        createMarker(chargersChoords, chargers, 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg');
+    }
+};
+xhttpChargers.open("GET", "../../../Contents/chargers.json", true);
+xhttpChargers.send();
 
-charger = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(46.186966, 12.704981),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg',
-    optimized: true
-});
-chargers.push(charger);
 
-charger = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(46.175804, 13.212284),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg',
-    optimized: true
-});
-chargers.push(charger);
-
-charger = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(46.028968, 12.653150),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg',
-    optimized: true
-});
-chargers.push(charger);
-
-charger = new google.maps.Marker({
-    map: map,
-    position: new google.maps.LatLng(45.710037, 13.132824),
-    icon: 'https://sites.google.com/site/pathprojectunimi/images/logo_charger.jpg',
-    optimized: true
-});
-chargers.push(charger);
-
-//inizialmente non visualizzo officine e colonnine sulla mappa
-setMapOnAllshop(null);
-setMapOnAllcharger(null);
+function createMarker(choords, arrayOfMarkers, iconImage) {
+    console.log(choords);
+    for (let i = 0; i < choords.length; i++) {
+        let marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(choords[i].latitude, choords[i].longitude),
+            icon: iconImage,
+            optimized: true
+        });
+        arrayOfMarkers.push(marker);  // es: shops.push(marker)
+    }
+    //inizialmente non visualizzo officine e colonnine sulla mappa
+    setMapOnAllshop(null);
+    setMapOnAllcharger(null);
+}
 
 function setMapOnAllshop(map) {					//carico in mappa le officine
     for (let i = 0; i < shops.length; i++) {
