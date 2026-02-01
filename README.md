@@ -10,12 +10,19 @@ It is strongly recommended to ensure that your npm environment is updated before
 ## Description
 This is a Node.js-based web application that allows users to explore and post comments regarding cycling routes in Friuli Venezia-Giulia (Italy). It provides interactive maps, route details, and a community feature for sharing feedback on specific locations.
 
+<img src="./img_readme/home.jpg" alt="Responsive Design" style="width:100%; height:auto;">
+
 ## Features
 - **Interactive Maps**: Visualize cycling routes (MTB, Road, Gravel) using Google Maps integration.
 - **Route Details**: View elevation profiles, distances, and descriptions.
 - **Community Comments**: Users can leave comments on specific waypoints (Start, Arrival, Points of Interest).
 - **Services**: Locate bike shops and charging stations.
 - **Security**: Protected against Stored XSS attacks.
+
+### Responsive Design
+The webapp is designed to be responsive and accessible on various devices, including desktops, tablets, and mobile phones.
+
+<img src="./img_readme/monitor.jpg" alt="Responsive Design" style="width:40%; height:auto;"><img src="./img_readme/ipad.jpg" alt="Responsive Design" style="width:35%; height:auto;"><img src="./img_readme/smartphone.jpg" alt="Responsive Design" style="width:20%; height:auto;">
 
 ## Installation & Usage
 
