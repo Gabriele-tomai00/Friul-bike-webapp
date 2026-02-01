@@ -348,7 +348,7 @@ window.onclick = function (event) {
 // BASED ON MARKER ID, RETURN A STRING WITH ITS RELATIVE NAME
 function descrMarker(id) {
 
-    let id_m = parseInt(id);  // convert strings to int
+    let id_m = Number.parseInt(id);  // convert strings to int
     let marcatore;
     switch (id_m) {
 
