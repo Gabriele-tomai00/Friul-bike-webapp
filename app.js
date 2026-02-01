@@ -40,7 +40,15 @@ app.post('/api/comments/add/mtb/m1', function (req, res) {
 });
 
 app.get('/api/comments/list/mtb/m1', function (req, res) {
-    res.send(JSON.stringify(dbh.db));
+    let safeComments = dbh.db.map(comment => {
+        return {
+            ...comment,
+            name: xss(comment.name),
+            text: xss(comment.text),
+            date: xss(comment.date)
+        };
+    });
+    res.send(JSON.stringify(safeComments));
 });
 
 
