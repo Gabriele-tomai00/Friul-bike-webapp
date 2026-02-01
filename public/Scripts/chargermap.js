@@ -15,8 +15,8 @@ let mapOptions1 = {
 
 let map = new google.maps.Map(document.getElementById('chargermap'), mapOptions1);
 
-// LISTA COLONNINE DI RICARICA //
-let chargers = []; // array contenente i marker con la posizione delle officine (google.maps.Marker)
+// CHARGING STATIONS LIST //
+let chargers = []; // array containing markers with shop positions (google.maps.Marker)
 let xhttpChargers = new XMLHttpRequest();
 xhttpChargers.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
@@ -36,6 +36,6 @@ function createMarker(choords, arrayOfMarkers, iconImage) {
             icon: iconImage,
             optimized: true
         });
-        arrayOfMarkers.push(marker);  // es: shops.push(marker)
+        arrayOfMarkers.push(marker);  // ex: shops.push(marker)
     }
 }

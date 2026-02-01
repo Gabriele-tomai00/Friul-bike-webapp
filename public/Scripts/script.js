@@ -13,7 +13,7 @@ function loadDescription(name) {
     let descElem = document.getElementById("desc");
 
     if (firstTime) {
-        console.log("Primo caricamento da file");
+        console.log("First load from file");
 
         let xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {

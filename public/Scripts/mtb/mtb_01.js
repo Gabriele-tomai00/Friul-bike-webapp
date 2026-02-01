@@ -1,17 +1,17 @@
-// variabili della mappa (si può ingrandire e viene aperta con un centro preciso)
+// map variables (can be zoomed and opens with a precise center)
 let mapOptions1 = {
     scrollwheel: true, zoom: 9, center: new google.maps.LatLng(46.071065, 13.232324)
 };
 
 let map = new google.maps.Map(document.getElementById('mtb_01'), mapOptions1);
 
-// aggiungo l'itinerario kml ottenuto con url
+// add the kml itinerary obtained with url
 const MAPLayer = new google.maps.KmlLayer({
     url: "https://sites.google.com/site/pathprojectunimi/mtb/0111.kml", map: map
 });
 
 
-// finestre per l'aggiunta di commenti in punti precisi della mappa (partenza, arrivo, lago)
+// windows for adding comments in specific map points (start, arrival, lake)
 const contentString_partenza = '<div class="infowindow">' + 'ARRIVO a ' + '<br>' + '<ul>' + '<li>' + 'Sauris di Sopra' + '</li>' + '<br>' + '<li>' + 'altezza: ' + '1813m' + '</li>' + '</ul>' + '<br>' + '<button id="comtButton" class="function" onclick="openwindow(2)">' + 'commenta' + '</button>' + '</div>';
 const infowindow_partenza = new google.maps.InfoWindow({
     content: contentString_partenza
@@ -21,7 +21,7 @@ const partenza = new google.maps.Marker({
     position: new google.maps.LatLng(46.47868, 12.61289), map,
 });
 
-partenza.addListener("click", () => {		//apro la finestra al click dell'utente
+partenza.addListener("click", () => {		// open window on user click
     infowindow_partenza.open(map, partenza);
 });
 
@@ -40,7 +40,7 @@ arrivo.addListener("click", () => {
 });
 
 
-// chiamo camera il punto del lago che ha un icona a forma di telecamera
+// I call camera the point of the lake that has a camera-shaped icon
 const contentString_camera = '<div class="infowindow">' + 'Luogo panoramico: Lago di Sauris' + '<br>' + '<br>' + '<button id="comtButton" class="function" onclick="openwindow(4)">' + 'commenta' + '</button>' + '</div>';
 
 const infowindow_camera = new google.maps.InfoWindow({
@@ -57,8 +57,8 @@ camera.addListener("click", () => {
     infowindow_camera.open(map, camera);
 });
 
-// LISTA OFFICINE //
-let shops = []; // array contenente i marker con la posizione delle officine (google.maps.Marker)
+// SHOPS LIST //
+let shops = []; // array containing markers with shop positions (google.maps.Marker)
 let xhttpShops = new XMLHttpRequest();
 xhttpShops.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
@@ -69,8 +69,8 @@ xhttpShops.onreadystatechange = function () {
 xhttpShops.open("GET", "../../../Contents/shops.json", true);
 xhttpShops.send();
 
-// LISTA COLONNINE DI RICARICA //
-let chargers = []; // array contenente i marker con la posizione delle officine (google.maps.Marker)
+// CHARGING STATIONS LIST //
+let chargers = []; // array containing markers with shop positions (google.maps.Marker)
 let xhttpChargers = new XMLHttpRequest();
 xhttpChargers.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
@@ -91,14 +91,14 @@ function createMarker(choords, arrayOfMarkers, iconImage) {
             icon: iconImage,
             optimized: true
         });
-        arrayOfMarkers.push(marker);  // es: shops.push(marker)
+        arrayOfMarkers.push(marker);  // ex: shops.push(marker)
     }
-    //inizialmente non visualizzo officine e colonnine sulla mappa
+    // initially do not display shops and chargers on the map
     setMapOnAllMarkers("shop", null);
     setMapOnAllMarkers("charger", null);
 }
 
-function setMapOnAllMarkers(typeOfMarker, map) {					//carico in mappa le officine
+function setMapOnAllMarkers(typeOfMarker, map) {					// load shops on map
     if (typeOfMarker == "shop" || typeOfMarker == "shops")
     {
         for (let i = 0; i < shops.length; i++)
@@ -106,13 +106,13 @@ function setMapOnAllMarkers(typeOfMarker, map) {					//carico in mappa le offici
     }
     else    // chargers
     {
-        for (let i = 0; i < chargers.length; i++) 	//carico in mappa le colonnine
+        for (let i = 0; i < chargers.length; i++) 	// load chargers on map
             chargers[i].setMap(map);
     }
 }
 
 
-let show_sh = true;  //parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
+let show_sh = true;  // parameter to toggle the functionality of the button that activates the function (show/hide)
 function show_markers(typeOfMarker) {
 
     if (show_sh) {
@@ -136,8 +136,8 @@ function show_markers(typeOfMarker) {
 }
 
 
-let geomarker, circle;  //variabili per visualizzare la località del dispositivo
-let show_gl = false; //parametro per alternare la funzionalità del bottone che attiva la funzione (mostra/nascondi)
+let geomarker, circle;  // variables to display device location
+let show_gl = false; // parameter to toggle the functionality of the button that activates the function (show/hide)
 
 function getLocation() {
     if (show_gl) {
@@ -169,23 +169,23 @@ function showPosition(position) {
     circle = new google.maps.Circle({
         map: map, radius: 1000, fillColor: '#0000ff', strokeWeight: 0,
     });
-    circle.bindTo('center', geomarker, 'position');   //associo il cerchio al marker
+    circle.bindTo('center', geomarker, 'position');   // associate the circle to the marker
 }
 
 
-/* COMMENTI */
+/* COMMENTS */
 
-//prima chiamata all'apertura della pagina, per caricare i commenti e stampare in console il numero
+// first call on page opening, to load comments and print the number in console
 window.onload = function () {
-    getComments("0", 0); //perchè li voglio tutti, e ne mostro 6
-    $.get("/api/comments/list/mtb/m1").done(function (dataComments) {	 //tento di caricare i commenti
+    getComments("0", 0); // because I want all of them, and I show 6
+    $.get("/api/comments/list/mtb/m1").done(function (dataComments) {	 // attempt to load comments
         dataComments = JSON.parse(dataComments);
-        console.log("numero totale di commenti: ", dataComments.length);
+        console.log("total number of comments: ", dataComments.length);
     });
 };
 
 function updateComments() {
-    let id_marker = document.getElementById("mySelect").value;  //l'id_marker vale 1 o 2 o 3...
+    let id_marker = document.getElementById("mySelect").value;  // id_marker is 1 or 2 or 3...
     getComments(id_marker, 6);
 }
 
@@ -195,12 +195,12 @@ function generateComment(c_id) {
     let c_name = $("#name").val();
     let c_text = $("#textcomment").val();
 
-    // calcolo la data e la salvo in un formato comodo all'utente
+    // calculate the date and save it in a user-friendly format
     let c_date = new Date();
     let y = c_date.getFullYear();
     let m = c_date.getMonth() + 1;
     let d = c_date.getDate();
-    let datedmy = d + "/" + m + "/" + y;   // esempio 20/6/2010
+    let datedmy = d + "/" + m + "/" + y;   // example 20/6/2010
 
     if (!c_text || !c_name) {
         alert("hai lasciato vuoto uno o più campi!");
@@ -208,16 +208,16 @@ function generateComment(c_id) {
         let objComment = {
             name: c_name, text: c_text, id: c_id, date: datedmy
         };
-        $('#c_name').val('');					//pulisco gli inputype
+        $('#c_name').val('');					// clear input types
         $('#textcomment').val('');
 
-        modal.style.display = "none";		//nascondo l'infowindow
+        modal.style.display = "none";		// hide infowindow
 
 
-        $.post("/api/comments/add/mtb/m1", objComment)  //invio il commento e poi visualizzo
+        $.post("/api/comments/add/mtb/m1", objComment)  // send comment and then display
             .done(function () {
                 getComments("0", 1);
-                updateComments(); 			//per ripristinare la visualizzazione dei soli commenti d'interesse
+                updateComments(); 			// to restore the visualization of only interested comments
             })
             .fail(function (data) {
                 alert(`Non è stato possibile aggiungere il commento: ${data}`);
@@ -227,16 +227,16 @@ function generateComment(c_id) {
 
 }
 
-//parametri per la funzione getComments (per visualizzare solo i commenti di un marcatore)
+// parameters for getComments function (to view only comments of a marker)
 let number_c = 0;
 
-function getComments(id_marker, counter_c) { //parametri: id commenti (da visualizzare), numero di commenti da visualizzare
-    let comment_count = 0; 						 //contatore dei commenti
+function getComments(id_marker, counter_c) { // parameters: comments id (to view), number of comments to view
+    let comment_count = 0; 						 // comment counter
     if (counter_c == 0)
-        number_c = 6;  //il num di commenti da visualizzare torna quello iniziale: 6
+        number_c = 6;  // number of comments to view returns to initial: 6
     else
         number_c += counter_c;
-    $.get("/api/comments/list/mtb/m1").done(function (dataComments) {	 //tento di caricare i commenti
+    $.get("/api/comments/list/mtb/m1").done(function (dataComments) {	 // attempt to load comments
 
         let dataC = JSON.parse(dataComments);
         $("#comments").each(function () {
@@ -244,7 +244,7 @@ function getComments(id_marker, counter_c) { //parametri: id commenti (da visual
             $(this).empty();
         });
 
-        if (id_marker === "0") {  //se uguale a zero, visualizzo tutti i commenti
+        if (id_marker === "0") {  // if equal to zero, view all comments
             for (let i = dataC.length - 1; i >= 0 && comment_count < (number_c); i--) {
                 let comment = dataC[i];
                 $(`#comments`).append(`  
@@ -263,10 +263,10 @@ function getComments(id_marker, counter_c) { //parametri: id commenti (da visual
                 comment_count += 1;
             }
 
-        } else {  //se diverso da zero, voglio visualizzare solo certi commenti
+        } else {  // if different from zero, I want to view only certain comments
             for (let i = dataC.length - 1; i >= 0 && comment_count < (number_c); i--) {
                 let comment = dataC[i];
-                if (id_marker === comment.id) { //visualizzo solo i commenti con quell'id
+                if (id_marker === comment.id) { // view only comments with that id
                     $(`#comments`).append(`  						 		
 										<div class="modal-content">
 										    <div class="modal-header">
@@ -285,20 +285,20 @@ function getComments(id_marker, counter_c) { //parametri: id commenti (da visual
             }
         }
 
-        // se ci sono altri commenti visualizzo il tasto "VISUALIZZA ALTRI COMMENTI"
+        // if there are other comments display "VIEW OTHER COMMENTS" button
         $("#number_comments").html("Commenti visualizzati: " + comment_count);
 
 
-        // se ci sono ancora commenti da visualizzare, inserisco il bottone per visualizzarli
-        // calcolo il numero di commenti per quell'id, per sapere se devo stampare il bottone "visualizza altri commenti"
+        // if there are still comments to view, insert the button to view them
+        // calculate the number of comments for that id, to know if I have to print the "view other comments" button
         let number_c_ofID = dataC.length;
-        if (id_marker != "0") { //calcolo il numero dei commenti per quel marcatore
+        if (id_marker != "0") { // calculate number of comments for that marker
             number_c_ofID = 0;
             for (let i = 0; i < dataC.length; i++) if (id_marker == dataC[i].id) number_c_ofID += 1;
-        } // stampo in ogni caso il bottone, che sia marcatore x oppure tutti i commenti
-        if (number_c_ofID > comment_count) //lo stampo solo se ci sono ancora commenti da visualizzare
+        } // print the button in any case, whether it's marker x or all comments
+        if (number_c_ofID > comment_count) // print only if there are still comments to view
             $("#update_comments").html("<button class='function' style='float: right;' type='submit' onclick='updateComments()'>Visualizza Altri Commenti</button>");
-        // se li carico tutti in pagina e non voglio più visualizzarli, lo nascondo
+        // if I load all of them on page and don't want to view them anymore, I hide it
         else $("#update_comments").empty();
 
 
@@ -311,19 +311,19 @@ function getComments(id_marker, counter_c) { //parametri: id commenti (da visual
 
 }
 
-/* FUNZIONI PER LA FINESTRA DI AGGIUNTA COMMENTI */
+/* FUNCTIONS FOR COMMENT ADDITION WINDOW */
 
 let modal = document.getElementById("myModal");
 
-// bottone che apre la finestra
+// button that opens the window
 let btn = document.getElementById("comtButton");
 
-// elemento che chiude la finestra
+// element that closes the window
 let span = document.getElementsByClassName("close")[0];
 
-// funzione per aprire la finestra
+// function to open the window
 function openwindow(id) {
-    /* AGGIUNGO IL MARCATORE PRECISO ALLA FINESTRA DEL COMMENTO */
+    /* ADD PRECISE MARKER TO COMMENT WINDOW */
     let marcatore = descrMarker(id);
     $("#marcatore").html("<p>Marcatore percorso: " + marcatore + "</p>");
     $("#id_marcatore").html(id);
@@ -332,12 +332,12 @@ function openwindow(id) {
     modal.style.display = "block";
 }
 
-// nascondo la finestra quando clicco la x
+// hide window when clicking x
 span.onclick = function () {
     modal.style.display = "none";
 }
 
-// nascondo la finestra quando clicco un punto qualsiasi fuori da essa
+// hide window when clicking anywhere outside it
 window.onclick = function (event) {
     if (event.target === modal) {
         modal.style.display = "none";
@@ -345,10 +345,10 @@ window.onclick = function (event) {
 }
 
 
-// IN BASE ALL'ID DEL MARCATORE, RESTITUISCO UNA STRINGA CON IL SUO RELATIVO NOME
+// BASED ON MARKER ID, RETURN A STRING WITH ITS RELATIVE NAME
 function descrMarker(id) {
 
-    let id_m = parseInt(id);  // converto in int le stringhe
+    let id_m = parseInt(id);  // convert strings to int
     let marcatore;
     switch (id_m) {
 

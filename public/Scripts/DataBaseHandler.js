@@ -22,7 +22,7 @@ module.exports = class DataBaseHandler {
     add(entry) {
         this.db.push(entry);
         this.saveToStorage();
-        console.log("nuovo commento: ", entry);
+        console.log("new comment: ", entry);
     }
 
     loadDB() {
@@ -31,16 +31,16 @@ module.exports = class DataBaseHandler {
                 this.db = JSON.parse(this.fs.readFileSync(this.fileName, 'utf8'));
             } else {
                 this.saveToStorage();
-                console.log("Vuoto");
+                console.log("Empty");
             }
         } catch (err) {
-            console.error("Errore: ", err);
+            console.error("Error: ", err);
             this.saveToStorage();
         }
     }
 
     saveToStorage() {
-        let toSave = JSON.stringify((this.db), null, 4);  //secondo e terzo parametro per formattare correttamente il json
+        let toSave = JSON.stringify((this.db), null, 4);  // second and third parameters to format json correctly
         this.fs.writeFile(this.fileName, toSave, 'utf8', function (err, dataComments) {
         })
     }

@@ -1,4 +1,3 @@
-// moduli richiesti
 const express = require('express')
 const xss = require('xss');
 let bodyParser = require('body-parser');
@@ -9,10 +8,10 @@ const app = express()
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
-//per hostare tutto quello che è nella cartella public
+// host everything in the public folder
 app.use(express.static('public'));
 
-// per la gestione dei commenti salvati in un file
+// for handling comments saved in a file
 let dbh = new DataBaseHandler("comments.json");
 app.post('/api/comments/add/mtb/m1', function (req, res) {
     let comment = req.body;

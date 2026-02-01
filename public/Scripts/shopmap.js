@@ -15,8 +15,8 @@ let mapOptions1 = {
 
 let map = new google.maps.Map(document.getElementById('shopmap'), mapOptions1);
 
-// LISTA officine di bicliclette //
-let shops = []; // array contenente i marker con la posizione delle officine (google.maps.Marker)
+// BICYCLE SHOPS LIST //
+let shops = []; // array containing markers with shop positions (google.maps.Marker)
 let xhttpShops = new XMLHttpRequest();
 xhttpShops.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
@@ -36,7 +36,7 @@ function createMarker(choords, arrayOfMarkers, iconImage) {
             icon: iconImage,
             optimized: true
         });
-        arrayOfMarkers.push(marker);  // es: shops.push(marker)
+        arrayOfMarkers.push(marker);  // ex: shops.push(marker)
     }
 }
 
