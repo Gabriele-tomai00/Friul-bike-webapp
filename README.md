@@ -1,4 +1,5 @@
-[![Node.js CI](https://github.com/Gabriele-tomai00/Friul-bike-webapp/actions/workflows/node.js.yml/badge.svg)](https://github.com/Gabriele-tomai00/Friul-bike-webapp/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/Gabriele-tomai00/Friul-bike-webapp/actions/workflows/node.js.yml/badge.svg)](https://github.com/Gabriele-tomai00/Friul-bike-webapp/actions/workflows/node.js.yml)[![Build](https://github.com/Gabriele-tomai00/Friul-bike-webapp/actions/workflows/build.yml/badge.svg)](https://github.com/Gabriele-tomai00/Friul-bike-webapp/actions/workflows/build.yml)
+
 # Friul-Bike Webapp
 
 ## ⚠️ Project Status Notice ⚠️
