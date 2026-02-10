@@ -9,5 +9,8 @@
     "express": "^5.2.1",
     "nodemon": "^3.1.11",
     "xss": "^1.0.15"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
   }
 }
