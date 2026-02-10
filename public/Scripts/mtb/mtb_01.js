@@ -153,8 +153,8 @@ function getLocation() {
         show_gl = true;
     }
 
-    geomarker.setMap(null);
-    circle.setMap(null);
+    if (geomarker) geomarker.setMap(null);
+    if (circle) circle.setMap(null);
 }
 
 
@@ -379,4 +379,17 @@ function descrMarker(id) {
     return marcatore;
 }
 
-
+if (typeof module !== 'undefined') {
+    module.exports = {
+        createMarker,
+        setMapOnAllMarkers,
+        show_markers,
+        getLocation,
+        showPosition,
+        updateComments,
+        generateComment,
+        getComments,
+        openwindow,
+        descrMarker
+    };
+}

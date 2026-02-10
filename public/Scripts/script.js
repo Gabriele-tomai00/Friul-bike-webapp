@@ -36,3 +36,7 @@ function loadDescription(name) {
         }
     }
 }
+
+if (typeof module !== 'undefined') {
+    module.exports = { showLinks, loadDescription };
+}

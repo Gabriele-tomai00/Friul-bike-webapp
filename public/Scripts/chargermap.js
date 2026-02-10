@@ -39,3 +39,7 @@ function createMarker(choords, arrayOfMarkers, iconImage) {
         arrayOfMarkers.push(marker);  // ex: shops.push(marker)
     }
 }
+
+if (typeof module !== 'undefined') {
+    module.exports = { createMarker };
+}

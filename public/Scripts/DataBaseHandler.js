@@ -8,11 +8,11 @@ module.exports = class DataBaseHandler {
     }
 
     checkForFile(callback) {
-        this.fs.access(this.fileName, function (exists) {
+        this.fs.access(this.fileName, (exists) => {
             if (exists) {
                 callback();
             } else {
-                fs.writeFile(this.fileName, '[]', function () {
+                this.fs.writeFile(this.fileName, '[]', function () {
                     callback();
                 })
             }
