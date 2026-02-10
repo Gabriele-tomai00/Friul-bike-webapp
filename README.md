@@ -87,6 +87,12 @@ Friul-bike-nodejs/
 ## Security
 This project includes security measures to prevent Stored Cross-Site Scripting (XSS). User inputs (names, comments) are validated and sanitized server-side before being stored in the database.
 
+## Testing
+This project uses Jest for unit testing. To run the tests, use the following command:
+```bash
+npm test
+```
+
 ## Technologies
 - **Backend**: Node.js, Express.js
 - **Frontend**: HTML5, CSS3, JavaScript, jQuery
