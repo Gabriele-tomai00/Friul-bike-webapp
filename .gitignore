@@ -1,3 +1,7 @@
+# Coverage reports
+coverage/
+lcov.info
+
 # Logs
 logs
 *.log
