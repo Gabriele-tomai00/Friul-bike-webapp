@@ -40,13 +40,20 @@ app.post('/api/comments/add/mtb/m1', function (req, res) {
 });
 
 app.get('/api/comments/list/mtb/m1', function (req, res) {
-    let safeComments = dbh.db.map(comment => {
-        return {
-            ...comment,
-            name: xss(comment.name),
-            text: xss(comment.text),
-            date: xss(comment.date)
-        };
+    let safeComments = [];
+    dbh.db.forEach(comment => {
+        let name = xss(comment.name);
+        let text = xss(comment.text);
+        let date = xss(comment.date);
+
+        if (name === comment.name && text === comment.text && date === comment.date) {
+            safeComments.push({
+                ...comment,
+                name: name,
+                text: text,
+                date: date
+            });
+        }
     });
     res.send(JSON.stringify(safeComments));
 });
