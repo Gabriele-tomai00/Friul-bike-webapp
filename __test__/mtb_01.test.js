@@ -1,9 +1,9 @@
 // Mock globals
-global.window = {
+globalThis.window = {
     onload: null
 };
 
-global.document = {
+globalThis.document = {
     getElementById: jest.fn().mockImplementation((id) => ({
         style: {},
         innerHTML: '',
@@ -12,7 +12,7 @@ global.document = {
     getElementsByClassName: jest.fn().mockReturnValue([{ onclick: null }])
 };
 
-global.google = {
+globalThis.google = {
     maps: {
         LatLng: jest.fn((lat, lng) => ({ lat, lng })),
         Map: jest.fn(),
@@ -31,7 +31,7 @@ global.google = {
     }
 };
 
-global.XMLHttpRequest = jest.fn().mockImplementation(() => ({
+globalThis.XMLHttpRequest = jest.fn().mockImplementation(() => ({
     open: jest.fn(),
     send: jest.fn(),
     onreadystatechange: null,
@@ -48,17 +48,17 @@ const mockJQueryObj = {
     done: jest.fn().mockReturnThis(),
     fail: jest.fn().mockReturnThis()
 };
-global.$ = jest.fn().mockReturnValue(mockJQueryObj);
-global.$.get = jest.fn().mockReturnValue(mockJQueryObj);
-global.$.post = jest.fn().mockReturnValue(mockJQueryObj);
+globalThis.$ = jest.fn().mockReturnValue(mockJQueryObj);
+globalThis.$.get = jest.fn().mockReturnValue(mockJQueryObj);
+globalThis.$.post = jest.fn().mockReturnValue(mockJQueryObj);
 
-global.navigator = {
+globalThis.navigator = {
     geolocation: {
         getCurrentPosition: jest.fn()
     }
 };
 
-global.alert = jest.fn();
+globalThis.alert = jest.fn();
 
 // Require the module
 const mtbModule = require('../public/Scripts/mtb/mtb_01.js');
@@ -81,7 +81,7 @@ describe('mtb_01.js', () => {
         const array = [];
         mtbModule.createMarker(coords, array, 'icon.png');
         expect(array.length).toBe(1);
-        expect(google.maps.Marker).toHaveBeenCalled();
+        expect(globalThis.google.maps.Marker).toHaveBeenCalled();
     });
 
     test('setMapOnAllMarkers sets map for shops', () => {
@@ -90,13 +90,13 @@ describe('mtb_01.js', () => {
 
     test('getLocation handles geolocation', () => {
         mtbModule.getLocation();
-        expect(navigator.geolocation.getCurrentPosition).toHaveBeenCalled();
+        expect(globalThis.navigator.geolocation.getCurrentPosition).toHaveBeenCalled();
     });
     
     test('showPosition creates marker and circle', () => {
         mtbModule.showPosition({ coords: { latitude: 10, longitude: 10 } });
-        expect(google.maps.Marker).toHaveBeenCalled();
-        expect(google.maps.Circle).toHaveBeenCalled();
+        expect(globalThis.google.maps.Marker).toHaveBeenCalled();
+        expect(globalThis.google.maps.Circle).toHaveBeenCalled();
     });
 
     test('generateComment sends post request', () => {
@@ -105,7 +105,7 @@ describe('mtb_01.js', () => {
         
         mtbModule.generateComment(1);
         
-        expect(global.$.post).toHaveBeenCalledWith(
+        expect(globalThis.$.post).toHaveBeenCalledWith(
             "/api/comments/add/mtb/m1",
             expect.objectContaining({
                 name: 'test-input',

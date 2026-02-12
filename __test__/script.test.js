@@ -1,9 +1,9 @@
 // Mock globals
-global.document = {
+globalThis.document = {
     getElementById: jest.fn()
 };
 
-global.XMLHttpRequest = jest.fn();
+globalThis.XMLHttpRequest = jest.fn();
 
 describe('script.js', () => {
     let scriptModule;
@@ -13,7 +13,7 @@ describe('script.js', () => {
         jest.clearAllMocks();
         
         // Mock XMLHttpRequest
-        global.XMLHttpRequest.mockImplementation(() => ({
+        globalThis.XMLHttpRequest.mockImplementation(() => ({
             open: jest.fn(),
             send: jest.fn(),
             onreadystatechange: null,
@@ -28,7 +28,7 @@ describe('script.js', () => {
 
     test('showLinks toggles class name', () => {
         const mockElement = { className: 'topnav' };
-        global.document.getElementById.mockReturnValue(mockElement);
+        globalThis.document.getElementById.mockReturnValue(mockElement);
 
         scriptModule.showLinks();
         expect(mockElement.className).toBe('topnav responsive');
@@ -45,10 +45,10 @@ describe('script.js', () => {
 
     test('loadDescription loads from file on first call', () => {
         const mockDescElem = { style: { display: 'none' }, innerHTML: '' };
-        global.document.getElementById.mockReturnValue(mockDescElem);
+        globalThis.document.getElementById.mockReturnValue(mockDescElem);
         
-        const xhrMock = new global.XMLHttpRequest();
-        global.XMLHttpRequest.mockImplementation(() => xhrMock);
+        const xhrMock = new globalThis.XMLHttpRequest();
+        globalThis.XMLHttpRequest.mockImplementation(() => xhrMock);
 
         scriptModule.loadDescription('test');
 
@@ -64,7 +64,7 @@ describe('script.js', () => {
         const mockDescElem = { style: { display: 'none' }, innerHTML: '' };
         const mockLoadDescBtn = { innerHTML: '' };
         
-        global.document.getElementById.mockImplementation((id) => {
+        globalThis.document.getElementById.mockImplementation((id) => {
             if (id === 'desc') return mockDescElem;
             if (id === 'loadDesc') return mockLoadDescBtn;
         });

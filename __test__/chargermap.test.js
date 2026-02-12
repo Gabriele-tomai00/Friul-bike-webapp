@@ -1,12 +1,12 @@
 // Mock globals before requiring the file
-global.document = {
+globalThis.document = {
     getElementById: jest.fn().mockReturnValue({
         className: 'topnav',
         style: {}
     })
 };
 
-global.google = {
+globalThis.google = {
     maps: {
         LatLng: jest.fn((lat, lng) => ({ lat, lng })),
         Map: jest.fn(),
@@ -14,7 +14,7 @@ global.google = {
     }
 };
 
-global.XMLHttpRequest = jest.fn().mockImplementation(() => ({
+globalThis.XMLHttpRequest = jest.fn().mockImplementation(() => ({
     open: jest.fn(),
     send: jest.fn(),
     onreadystatechange: null,
@@ -39,8 +39,8 @@ describe('chargermap.js', () => {
         createMarker(coords, arrayOfMarkers, iconImage);
 
         expect(arrayOfMarkers.length).toBe(2);
-        expect(google.maps.Marker).toHaveBeenCalledTimes(2);
-        expect(google.maps.LatLng).toHaveBeenCalledWith(45.0, 13.0);
-        expect(google.maps.LatLng).toHaveBeenCalledWith(46.0, 14.0);
+        expect(globalThis.google.maps.Marker).toHaveBeenCalledTimes(2);
+        expect(globalThis.google.maps.LatLng).toHaveBeenCalledWith(45.0, 13.0);
+        expect(globalThis.google.maps.LatLng).toHaveBeenCalledWith(46.0, 14.0);
     });
 });

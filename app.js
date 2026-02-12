@@ -52,5 +52,9 @@ app.get('/api/comments/list/mtb/m1', function (req, res) {
 });
 
 
-app.listen(1337, '127.0.0.1');
-console.log('Server running at http://127.0.0.1:1337/Views/home.html');
+if (require.main === module) {
+    app.listen(1337, '127.0.0.1');
+    console.log('Server running at http://127.0.0.1:1337/Views/home.html');
+}
+
+module.exports = app;
