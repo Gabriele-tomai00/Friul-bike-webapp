@@ -41,5 +41,5 @@ function createMarker(choords, arrayOfMarkers, iconImage) {
 }
 
 if (typeof module !== 'undefined') {
-    module.exports = { createMarker };
+    module.exports = { createMarker, showLinks };
 }

@@ -21,11 +21,16 @@ globalThis.XMLHttpRequest = jest.fn().mockImplementation(() => ({
     responseText: '[]'
 }));
 
-const { createMarker } = require('../public/Scripts/chargermap.js');
+const { createMarker, showLinks } = require('../public/Scripts/chargermap.js');
 
 describe('chargermap.js', () => {
     beforeEach(() => {
         jest.clearAllMocks();
+        // Reset default mock return value for document.getElementById
+        globalThis.document.getElementById.mockReturnValue({
+            className: 'topnav',
+            style: {}
+        });
     });
 
     test('createMarker creates markers and adds them to the array', () => {
@@ -42,5 +47,21 @@ describe('chargermap.js', () => {
         expect(globalThis.google.maps.Marker).toHaveBeenCalledTimes(2);
         expect(globalThis.google.maps.LatLng).toHaveBeenCalledWith(45.0, 13.0);
         expect(globalThis.google.maps.LatLng).toHaveBeenCalledWith(46.0, 14.0);
+    });
+
+    test('showLinks toggles class name from topnav to responsive', () => {
+        const mockElement = { className: 'topnav' };
+        globalThis.document.getElementById.mockReturnValue(mockElement);
+
+        showLinks();
+        expect(mockElement.className).toBe('topnav responsive');
+    });
+
+    test('showLinks toggles class name from responsive back to topnav', () => {
+        const mockElement = { className: 'topnav responsive' };
+        globalThis.document.getElementById.mockReturnValue(mockElement);
+
+        showLinks();
+        expect(mockElement.className).toBe('topnav');
     });
 });

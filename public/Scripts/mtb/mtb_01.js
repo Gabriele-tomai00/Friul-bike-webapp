@@ -141,8 +141,8 @@ let show_gl = false; // parameter to toggle the functionality of the button that
 
 function getLocation() {
     if (show_gl) {
-        geomarker.setMap(null);
-        circle.setMap(null);
+        if (geomarker) geomarker.setMap(null);
+        if (circle) circle.setMap(null);
         show_gl = false;
     } else {
         if (navigator.geolocation) {
